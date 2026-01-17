@@ -1,0 +1,5 @@
+# Sangin Snoop - Dependencies
+# Install with: pip install -r requirements.txt
+
+requests>=2.28.0,<3.0.0
+beautifulsoup4>=4.11.0,<5.0.0
