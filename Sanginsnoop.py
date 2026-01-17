@@ -58,7 +58,7 @@ Limitations
 import json
 import os
 import time
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Optional
 
@@ -212,7 +212,7 @@ def check_product_availability(handle: str, session: requests.Session) -> Produc
     ProductStatus
         An object describing the product and its current status.
     """
-    url = f"https://sangininstruments.com/products/{handle}"
+    url = f"{BASE_URL}/products/{handle}"
     try:
         response = session.get(url, timeout=20)
         if response.status_code >= 400:
