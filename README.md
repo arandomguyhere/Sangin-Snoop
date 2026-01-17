@@ -2,6 +2,8 @@
 
 Watch availability checker for [Sangin Instruments](https://sangininstruments.com) tactical watches.
 
+**[View the Project Page](https://arandomguyhere.github.io/Sangin-Snoop/)**
+
 ## Features
 
 - **Automatic Product Discovery** - Discovers all watches automatically, no manual updates needed
