@@ -4,9 +4,11 @@ Watch availability checker for [Sangin Instruments](https://sangininstruments.co
 
 ## Features
 
-- **Automated Availability Checking** - Scrapes product pages to detect "Sold Out" or "Add to Cart" status
-- **Change Detection** - Tracks previous status and alerts you when availability changes
-- **Discord Notifications** - Get instant alerts when a watch becomes available
+- **Automatic Product Discovery** - Discovers all watches automatically, no manual updates needed
+- **New Product Alerts** - Get notified when Sangin releases new watches
+- **Availability Checking** - Detects "Sold Out" or "Add to Cart" status
+- **Change Detection** - Tracks status and alerts you when availability changes
+- **Discord Notifications** - Get instant alerts for new products and restocks
 - **GitHub Actions** - Automated checks every 30 minutes (free!)
 - **Rate Limiting** - Respectful 1-second delay between requests
 
@@ -56,56 +58,50 @@ The included workflow automatically checks watch availability every 30 minutes a
 
 The workflow will now run automatically every 30 minutes. You can also trigger it manually from the Actions tab.
 
-## Monitored Watches
+## Automatic Product Discovery
 
-The script monitors these Sangin Instruments models by default:
+The script **automatically discovers all watches** from the Sangin Instruments website. When new watches are added to the store, they'll be detected and monitored automatically - no code changes needed!
 
-| Model | Handle |
-|-------|--------|
-| Atlas II | `atlas-ii` |
-| Overlord | `overlord` |
-| Professional | `professional` |
-| Neptune | `neptune` |
-| Merlin | `merlin` |
-| Dark Merlin | `dark-merlin` |
-| Kingmaker | `kingmaker` |
-| Kinetic II | `kinetic-ii` |
-| Kinetic II Ti | `kinetic-ii-ti` |
-| Hydra | `hydra` |
-| Overlord Special Edition | `overlord-special-edition` |
-| Kinetic Gypsy | `kinetic-gypsy` |
-| Marauder | `marauder` |
+### How Discovery Works
 
-### Adding More Watches
+The script tries multiple methods to find all products:
 
-Edit the `PRODUCT_HANDLES` list in `Sanginsnoop.py`:
+1. **Shopify products.json API** (primary method)
+2. **Paginated products endpoint** (for large catalogs)
+3. **Collections page scraping** (fallback)
+4. **Hardcoded fallback list** (if all else fails)
 
-```python
-PRODUCT_HANDLES = [
-    "atlas-ii",
-    "your-new-watch-handle",
-    # ...
-]
-```
+### New Product Notifications
 
-The handle is the URL slug from the product page. For example:
-- URL: `https://sangininstruments.com/products/atlas-ii`
-- Handle: `atlas-ii`
+When a new watch is discovered, you'll receive a Discord notification:
+
+> **Watch Update:** 1 new product(s) discovered
+>
+> **NEW WATCH: Example Watch Name**
+> Status: available
+> [Link to product page]
 
 ## How It Works
 
-1. Makes HTTP requests to each product page
-2. Parses the HTML and searches for availability keywords:
+1. **Discovers products** from the Sangin website automatically
+2. **Checks each product page** for availability keywords:
    - "Sold out" = unavailable
    - "Add to cart" / "Add to basket" = available
-3. Compares current status to previous run
-4. Sends Discord notification if status changed
-5. Saves current status for next comparison
+3. **Detects new products** that weren't seen before
+4. **Compares status** to previous run for changes
+5. **Sends Discord notifications** for new products and status changes
+6. **Saves state** for the next comparison
 
 ## Example Output
 
 ```
-Checking Sangin Instruments watch availability...
+Sangin Snoop - Watch Availability Checker
+==================================================
+
+Discovering products...
+Discovered 15 products via products.json
+
+Checking availability for 15 products...
 
 Product Handle            | Status                         | URL
 ------------------------------------------------------------------------------------------
@@ -115,7 +111,12 @@ professional              | available                      | https://sangininstr
 ...
 
 ==========================================================================================
-CHANGES DETECTED:
+NEW PRODUCTS DISCOVERED (1):
+==========================================================================================
+  🆕 new-watch-model: available
+
+==========================================================================================
+STATUS CHANGES (1):
 ==========================================================================================
   atlas-ii: sold out -> available
 

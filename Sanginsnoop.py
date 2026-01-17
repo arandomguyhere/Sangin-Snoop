@@ -9,6 +9,9 @@ product pages and looking for keywords in the page content (specifically
 anywhere on the page it will assume the watch is unavailable.  Otherwise,
 if it finds "Add to cart", it will conclude that the watch is available.
 
+The script automatically discovers all products from the Sangin Instruments
+website, so new watches are detected automatically without code changes.
+
 **Disclaimer:** At the time of writing this code we could not test it
 end‑to‑end from within the environment because direct HTTP requests to
 `sangininstruments.com` were blocked by a 403 (Forbidden) response.  The
@@ -24,19 +27,13 @@ Usage
    pip install requests beautifulsoup4
    ```
 
-2. Edit the `PRODUCT_HANDLES` list to include any Sangin product handles
-   you want to monitor.  A handle is the slug portion of the product URL.
-   For example, the Atlas II product page is available at
-   `https://sangininstruments.com/products/atlas-ii`, so its handle is
-   "atlas-ii".
-
-3. Run the script:
+2. Run the script:
 
    ```bash
    python Sanginsnoop.py
    ```
 
-4. (Optional) Set up notifications by setting the DISCORD_WEBHOOK_URL
+3. (Optional) Set up notifications by setting the DISCORD_WEBHOOK_URL
    environment variable:
 
    ```bash
@@ -44,8 +41,8 @@ Usage
    python Sanginsnoop.py
    ```
 
-The script will print a table summarising whether each product appears to be
-available or sold out based on the presence of the keywords mentioned above.
+The script will automatically discover all products on the site and print a
+table summarising whether each product appears to be available or sold out.
 
 Limitations
 -----------
@@ -72,6 +69,26 @@ from bs4 import BeautifulSoup
 # File to store previous status for change detection
 STATUS_FILE = Path(__file__).parent / "status_cache.json"
 
+# Base URL for Sangin Instruments
+BASE_URL = "https://sangininstruments.com"
+
+# Fallback list if automatic discovery fails
+FALLBACK_HANDLES = [
+    "atlas-ii",
+    "overlord",
+    "professional",
+    "neptune",
+    "merlin",
+    "dark-merlin",
+    "kingmaker",
+    "kinetic-ii",
+    "kinetic-ii-ti",
+    "hydra",
+    "overlord-special-edition",
+    "kinetic-gypsy",
+    "marauder",
+]
+
 
 @dataclass
 class ProductStatus:
@@ -80,6 +97,104 @@ class ProductStatus:
     handle: str
     url: str
     status: str
+
+
+def get_session() -> requests.Session:
+    """Create a requests session with realistic headers."""
+    session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/116.0.0.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+        }
+    )
+    return session
+
+
+def discover_products(session: requests.Session) -> List[str]:
+    """Automatically discover all product handles from the Sangin website.
+
+    Uses Shopify's products.json endpoint to get all products dynamically.
+    Falls back to scraping the collections page if JSON endpoint fails.
+    Returns FALLBACK_HANDLES if all discovery methods fail.
+
+    Parameters
+    ----------
+    session : requests.Session
+        A session object to persist headers and cookies across requests.
+
+    Returns
+    -------
+    List[str]
+        A list of product handles discovered from the website.
+    """
+    handles = []
+
+    # Method 1: Try Shopify's products.json endpoint (most reliable)
+    try:
+        response = session.get(f"{BASE_URL}/products.json", timeout=20)
+        if response.status_code == 200:
+            data = response.json()
+            products = data.get("products", [])
+            handles = [p["handle"] for p in products if "handle" in p]
+            if handles:
+                print(f"Discovered {len(handles)} products via products.json")
+                return handles
+    except (requests.RequestException, json.JSONDecodeError, KeyError):
+        pass
+
+    # Method 2: Try paginated products.json (some stores paginate)
+    try:
+        page = 1
+        while page <= 10:  # Limit to 10 pages
+            response = session.get(
+                f"{BASE_URL}/products.json?page={page}&limit=250",
+                timeout=20
+            )
+            if response.status_code != 200:
+                break
+            data = response.json()
+            products = data.get("products", [])
+            if not products:
+                break
+            handles.extend([p["handle"] for p in products if "handle" in p])
+            page += 1
+            time.sleep(0.5)
+        if handles:
+            print(f"Discovered {len(handles)} products via paginated products.json")
+            return list(dict.fromkeys(handles))  # Remove duplicates, preserve order
+    except (requests.RequestException, json.JSONDecodeError, KeyError):
+        pass
+
+    # Method 3: Scrape the collections/all page
+    try:
+        response = session.get(f"{BASE_URL}/collections/all", timeout=20)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, "html.parser")
+            # Look for product links
+            for link in soup.find_all("a", href=True):
+                href = link["href"]
+                if "/products/" in href:
+                    # Extract handle from URL like /products/atlas-ii
+                    parts = href.split("/products/")
+                    if len(parts) > 1:
+                        handle = parts[1].split("?")[0].split("/")[0]
+                        if handle and handle not in handles:
+                            handles.append(handle)
+            if handles:
+                print(f"Discovered {len(handles)} products via collections page")
+                return handles
+    except requests.RequestException:
+        pass
+
+    # Method 4: Fallback to hardcoded list
+    print(f"Using fallback list of {len(FALLBACK_HANDLES)} known products")
+    return FALLBACK_HANDLES
 
 
 def check_product_availability(handle: str, session: requests.Session) -> ProductStatus:
@@ -116,30 +231,21 @@ def check_product_availability(handle: str, session: requests.Session) -> Produc
         return ProductStatus(handle, url, f"error: {exc}")
 
 
-def scrape_products(handles: List[str]) -> List[ProductStatus]:
+def scrape_products(handles: List[str], session: requests.Session) -> List[ProductStatus]:
     """Scrape multiple products and return their availability status.
 
     Parameters
     ----------
     handles : List[str]
         A list of product handles to scrape.
+    session : requests.Session
+        A session object to persist headers and cookies across requests.
 
     Returns
     -------
     List[ProductStatus]
         A list of results for each product.
     """
-    session = requests.Session()
-    # Set a realistic User‑Agent header to reduce the chance of being blocked
-    session.headers.update(
-        {
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/116.0.0.0 Safari/537.36"
-            )
-        }
-    )
     results: List[ProductStatus] = []
     for handle in handles:
         status = check_product_availability(handle, session)
@@ -169,46 +275,74 @@ def save_current_status(results: List[ProductStatus]) -> None:
 
 def detect_changes(
     results: List[ProductStatus], previous: Dict[str, str]
-) -> List[Dict[str, str]]:
+) -> tuple[List[Dict[str, str]], List[Dict[str, str]]]:
     """Detect changes between current and previous status.
 
-    Returns a list of changes with 'handle', 'old_status', 'new_status', and 'url'.
+    Returns a tuple of:
+    - changes: list of status changes with 'handle', 'old_status', 'new_status', and 'url'
+    - new_products: list of new products with 'handle', 'status', and 'url'
     """
     changes = []
+    new_products = []
     for item in results:
         old_status = previous.get(item.handle)
-        if old_status is not None and old_status != item.status:
+        if old_status is None and previous:
+            # This is a new product (only if we have previous data)
+            new_products.append({
+                "handle": item.handle,
+                "status": item.status,
+                "url": item.url,
+            })
+        elif old_status is not None and old_status != item.status:
             changes.append({
                 "handle": item.handle,
                 "old_status": old_status,
                 "new_status": item.status,
                 "url": item.url,
             })
-    return changes
+    return changes, new_products
 
 
 def send_discord_notification(
-    webhook_url: str, changes: List[Dict[str, str]]
+    webhook_url: str,
+    changes: List[Dict[str, str]],
+    new_products: Optional[List[Dict[str, str]]] = None
 ) -> bool:
-    """Send a Discord notification about status changes.
+    """Send a Discord notification about status changes and new products.
 
     Parameters
     ----------
     webhook_url : str
         The Discord webhook URL.
     changes : List[Dict[str, str]]
-        List of changes to report.
+        List of status changes to report.
+    new_products : Optional[List[Dict[str, str]]]
+        List of new products discovered.
 
     Returns
     -------
     bool
         True if the notification was sent successfully.
     """
-    if not changes:
+    if not changes and not new_products:
         return True
 
     # Build the message
     embeds = []
+
+    # Add new product notifications
+    if new_products:
+        for product in new_products:
+            color = 0x0099FF  # Blue - new product
+            title = f"🆕 NEW WATCH: {product['handle'].replace('-', ' ').title()}"
+            embeds.append({
+                "title": title,
+                "description": f"**Status:** {product['status']}",
+                "url": product["url"],
+                "color": color,
+            })
+
+    # Add status change notifications
     for change in changes:
         # Determine color based on new status
         if change["new_status"] == "available":
@@ -228,10 +362,18 @@ def send_discord_notification(
             "color": color,
         })
 
+    # Determine content message
+    content_parts = []
+    if new_products:
+        content_parts.append(f"{len(new_products)} new product(s) discovered")
+    if changes:
+        content_parts.append(f"{len(changes)} status change(s)")
+    content = "**Watch Update:** " + ", ".join(content_parts)
+
     payload = {
         "username": "Sangin Snoop",
         "avatar_url": "https://sangininstruments.com/cdn/shop/files/SI_Logo_White.png",
-        "content": "**Watch Availability Update**",
+        "content": content,
         "embeds": embeds[:10],  # Discord limit is 10 embeds per message
     }
 
@@ -248,30 +390,25 @@ def send_discord_notification(
 
 
 def main() -> None:
-    # List of product handles we want to check
-    PRODUCT_HANDLES = [
-        "atlas-ii",
-        "overlord",
-        "professional",
-        "neptune",
-        "merlin",
-        "dark-merlin",
-        "kingmaker",
-        "kinetic-ii",
-        "kinetic-ii-ti",
-        "hydra",
-        "overlord-special-edition",
-        "kinetic-gypsy",
-        "marauder",
-    ]
+    print("Sangin Snoop - Watch Availability Checker")
+    print("=" * 50)
+    print()
+
+    # Create session for all requests
+    session = get_session()
+
+    # Automatically discover all products
+    print("Discovering products...")
+    product_handles = discover_products(session)
+    print()
 
     # Load previous status for change detection
     previous_status = load_previous_status()
 
     # Scrape current status
-    print("Checking Sangin Instruments watch availability...")
+    print(f"Checking availability for {len(product_handles)} products...")
     print()
-    results = scrape_products(PRODUCT_HANDLES)
+    results = scrape_products(product_handles, session)
 
     # Print the results in a simple table
     print(f"{'Product Handle':<25} | {'Status':<30} | URL")
@@ -279,23 +416,34 @@ def main() -> None:
     for item in results:
         print(f"{item.handle:<25} | {item.status:<30} | {item.url}")
 
-    # Detect changes
-    changes = detect_changes(results, previous_status)
+    # Detect changes and new products
+    changes, new_products = detect_changes(results, previous_status)
 
+    # Report new products
+    if new_products:
+        print()
+        print("=" * 90)
+        print(f"NEW PRODUCTS DISCOVERED ({len(new_products)}):")
+        print("=" * 90)
+        for product in new_products:
+            print(f"  🆕 {product['handle']}: {product['status']}")
+
+    # Report status changes
     if changes:
         print()
         print("=" * 90)
-        print("CHANGES DETECTED:")
+        print(f"STATUS CHANGES ({len(changes)}):")
         print("=" * 90)
         for change in changes:
             print(f"  {change['handle']}: {change['old_status']} -> {change['new_status']}")
 
-        # Send Discord notification if webhook is configured
+    # Send Discord notification if webhook is configured
+    if changes or new_products:
         webhook_url = os.environ.get("DISCORD_WEBHOOK_URL")
         if webhook_url:
             print()
             print("Sending Discord notification...")
-            if send_discord_notification(webhook_url, changes):
+            if send_discord_notification(webhook_url, changes, new_products):
                 print("Discord notification sent successfully!")
             else:
                 print("Failed to send Discord notification.")
