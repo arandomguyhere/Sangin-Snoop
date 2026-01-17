@@ -19,7 +19,7 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
         }
@@ -59,42 +59,6 @@
             color: #8b949e;
         }
 
-        ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        li {
-            color: #8b949e;
-            margin-bottom: 8px;
-        }
-
-        code {
-            background: #161b22;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: 'SF Mono', Consolas, monospace;
-            font-size: 0.9em;
-        }
-
-        pre {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 16px;
-            overflow-x: auto;
-            margin-bottom: 20px;
-        }
-
-        pre code {
-            background: none;
-            padding: 0;
-            color: #c9d1d9;
-        }
-
-        .comment { color: #8b949e; }
-        .command { color: #79c0ff; }
-
         a {
             color: #58a6ff;
             text-decoration: none;
@@ -129,20 +93,97 @@
             background: #30363d;
         }
 
-        .output {
-            background: #0d1117;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 16px;
-            font-family: 'SF Mono', Consolas, monospace;
-            font-size: 13px;
-            overflow-x: auto;
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 12px;
             margin-bottom: 20px;
         }
 
-        .output .green { color: #3fb950; }
-        .output .red { color: #f85149; }
-        .output .dim { color: #6e7681; }
+        .watch-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .watch-card:hover {
+            border-color: #58a6ff;
+        }
+
+        .watch-name {
+            color: #c9d1d9;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .watch-name a {
+            color: inherit;
+        }
+
+        .status-badge {
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        .status-available {
+            background: rgba(63, 185, 80, 0.2);
+            color: #3fb950;
+        }
+
+        .status-sold-out {
+            background: rgba(248, 81, 73, 0.2);
+            color: #f85149;
+        }
+
+        .status-unknown {
+            background: rgba(139, 148, 158, 0.2);
+            color: #8b949e;
+        }
+
+        .last-updated {
+            color: #6e7681;
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+
+        .loading {
+            color: #8b949e;
+            font-style: italic;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stat {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 600;
+            color: #c9d1d9;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #8b949e;
+        }
+
+        .stat-number.green { color: #3fb950; }
+        .stat-number.red { color: #f85149; }
 
         footer {
             margin-top: 60px;
@@ -151,6 +192,32 @@
             color: #6e7681;
             font-size: 14px;
         }
+
+        code {
+            background: #161b22;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Consolas, monospace;
+            font-size: 0.9em;
+        }
+
+        pre {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 16px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+            color: #c9d1d9;
+        }
+
+        .comment { color: #8b949e; }
+        .command { color: #79c0ff; }
     </style>
 </head>
 <body>
@@ -169,14 +236,27 @@
             <a href="https://github.com/arandomguyhere/Sangin-Snoop/fork" class="btn btn-secondary">Fork</a>
         </div>
 
-        <h2>What it does</h2>
-        <ul>
-            <li>Auto-discovers all watches from the Sangin website (currently finds 30+ products)</li>
-            <li>Checks each product page for "Sold Out" or "Add to Cart" status</li>
-            <li>Sends Discord notifications when availability changes</li>
-            <li>Alerts you when new watches are added to the store</li>
-            <li>Runs automatically every 30 minutes via GitHub Actions</li>
-        </ul>
+        <h2>Live Status</h2>
+        <p class="last-updated" id="last-updated">Loading...</p>
+
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-number" id="total-count">-</div>
+                <div class="stat-label">Total Watches</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number green" id="available-count">-</div>
+                <div class="stat-label">Available</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number red" id="soldout-count">-</div>
+                <div class="stat-label">Sold Out</div>
+            </div>
+        </div>
+
+        <div class="status-grid" id="status-grid">
+            <p class="loading">Loading watch data...</p>
+        </div>
 
         <h2>Quick start</h2>
         <pre><code><span class="comment"># Clone and run</span>
@@ -185,32 +265,11 @@
 <span class="command">pip install -r requirements.txt</span>
 <span class="command">python Sanginsnoop.py</span></code></pre>
 
-        <h2>Example output</h2>
-        <div class="output">
-<span class="dim">Discovering products...</span>
-<span class="dim">Discovered 30 products via products.json</span>
-
-<span class="dim">Checking availability for 30 products...</span>
-
-titan                     | <span class="red">sold out</span>
-atlas                     | <span class="red">sold out</span>
-overlord                  | <span class="green">available</span>
-professional              | <span class="green">available</span>
-neptune                   | <span class="green">available</span>
-<span class="dim">...</span>
-
-<span class="green">STATUS CHANGES (1):</span>
-  overlord: sold out -> available
-
-<span class="dim">Sending Discord notification...</span>
-<span class="green">Discord notification sent!</span>
-        </div>
-
         <h2>Setup Discord alerts</h2>
         <ol style="margin-left: 20px; color: #8b949e;">
             <li style="margin-bottom: 8px;">Fork this repo</li>
             <li style="margin-bottom: 8px;">Create a Discord webhook (Server Settings → Integrations → Webhooks)</li>
-            <li style="margin-bottom: 8px;">Add <code>DISCORD_WEBHOOK_URL</code> to your repo's secrets (Settings → Secrets → Actions)</li>
+            <li style="margin-bottom: 8px;">Add <code>DISCORD_WEBHOOK_URL</code> to your repo's secrets</li>
             <li style="margin-bottom: 8px;">The workflow runs every 30 minutes automatically</li>
         </ol>
 
@@ -218,5 +277,59 @@ neptune                   | <span class="green">available</span>
             <p>Not affiliated with Sangin Instruments. Built by <a href="https://github.com/arandomguyhere">@arandomguyhere</a></p>
         </footer>
     </div>
+
+    <script>
+        async function loadStatus() {
+            try {
+                const response = await fetch('status.json');
+                if (!response.ok) throw new Error('Status not available');
+                const data = await response.json();
+
+                // Update last updated time
+                const updated = new Date(data.last_updated);
+                document.getElementById('last-updated').textContent =
+                    `Last updated: ${updated.toLocaleString()}`;
+
+                // Count stats
+                const available = data.products.filter(p => p.status === 'available').length;
+                const soldOut = data.products.filter(p => p.status === 'sold out').length;
+
+                document.getElementById('total-count').textContent = data.total_products;
+                document.getElementById('available-count').textContent = available;
+                document.getElementById('soldout-count').textContent = soldOut;
+
+                // Build grid
+                const grid = document.getElementById('status-grid');
+                grid.innerHTML = data.products.map(product => {
+                    let statusClass = 'status-unknown';
+                    let statusText = product.status;
+
+                    if (product.status === 'available') {
+                        statusClass = 'status-available';
+                        statusText = 'Available';
+                    } else if (product.status === 'sold out') {
+                        statusClass = 'status-sold-out';
+                        statusText = 'Sold Out';
+                    }
+
+                    return `
+                        <div class="watch-card">
+                            <span class="watch-name">
+                                <a href="${product.url}" target="_blank">${product.name}</a>
+                            </span>
+                            <span class="status-badge ${statusClass}">${statusText}</span>
+                        </div>
+                    `;
+                }).join('');
+
+            } catch (error) {
+                document.getElementById('status-grid').innerHTML =
+                    '<p class="loading">Status data not yet available. Run the script or wait for the next GitHub Action.</p>';
+                document.getElementById('last-updated').textContent = 'Status not yet available';
+            }
+        }
+
+        loadStatus();
+    </script>
 </body>
 </html>
