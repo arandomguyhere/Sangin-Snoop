@@ -1,0 +1,45 @@
+name: Check Watch Availability
+
+on:
+  # Run every 30 minutes
+  schedule:
+    - cron: '*/30 * * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Restore status cache
+        uses: actions/cache@v4
+        with:
+          path: status_cache.json
+          key: status-cache-${{ github.run_id }}
+          restore-keys: |
+            status-cache-
+
+      - name: Run availability checker
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python Sanginsnoop.py
+
+      - name: Save status cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: status_cache.json
+          key: status-cache-${{ github.run_id }}
