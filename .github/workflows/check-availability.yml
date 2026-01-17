@@ -20,26 +20,28 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'  # Cache pip dependencies
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Restore status cache
-        uses: actions/cache@v4
+      - name: Download previous status
+        uses: dawidd6/action-download-artifact@v3
         with:
-          path: status_cache.json
-          key: status-cache-${{ github.run_id }}
-          restore-keys: |
-            status-cache-
+          name: status-cache
+          path: .
+          if_no_artifact_found: warn
+        continue-on-error: true
 
       - name: Run availability checker
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python Sanginsnoop.py
 
-      - name: Save status cache
-        if: always()
-        uses: actions/cache/save@v4
+      - name: Upload status for next run
+        uses: actions/upload-artifact@v4
         with:
+          name: status-cache
           path: status_cache.json
-          key: status-cache-${{ github.run_id }}
+          retention-days: 7
+          overwrite: true
