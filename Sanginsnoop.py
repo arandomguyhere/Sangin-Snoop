@@ -273,6 +273,28 @@ def save_current_status(results: List[ProductStatus]) -> None:
         json.dump(status_dict, f, indent=2)
 
 
+def save_public_status(results: List[ProductStatus]) -> None:
+    """Save status to a public JSON file for the landing page."""
+    from datetime import datetime, timezone
+
+    public_file = Path(__file__).parent / "status.json"
+    data = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "total_products": len(results),
+        "products": [
+            {
+                "name": item.handle.replace("-", " ").title(),
+                "handle": item.handle,
+                "status": item.status,
+                "url": item.url,
+            }
+            for item in results
+        ]
+    }
+    with open(public_file, "w") as f:
+        json.dump(data, f, indent=2)
+
+
 def detect_changes(
     results: List[ProductStatus], previous: Dict[str, str]
 ) -> tuple[List[Dict[str, str]], List[Dict[str, str]]]:
@@ -460,6 +482,9 @@ def main() -> None:
 
     # Save current status for next run
     save_current_status(results)
+
+    # Save public status for landing page
+    save_public_status(results)
 
 
 if __name__ == "__main__":

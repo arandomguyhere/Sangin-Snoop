@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'  # Cache pip dependencies
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -45,3 +45,11 @@ jobs:
           path: status_cache.json
           retention-days: 7
           overwrite: true
+
+      - name: Commit status.json to repo
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add status.json
+          git diff --staged --quiet || git commit -m "Update watch status [skip ci]"
+          git push
