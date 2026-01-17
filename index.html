@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangin Snoop - Watch Availability Checker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e4e4e4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(233, 69, 96, 0.2);
+            border: 1px solid #e94560;
+            color: #e94560;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 5px;
+        }
+
+        .hero {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .hero p {
+            line-height: 1.8;
+            color: #b0b0b0;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(233, 69, 96, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            color: #a0a0a0;
+            line-height: 1.6;
+        }
+
+        .watches-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .watches-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .watches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .watch-item {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .watch-item:hover {
+            border-color: #e94560;
+            background: rgba(233, 69, 96, 0.1);
+        }
+
+        .watch-name {
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+            text-transform: capitalize;
+        }
+
+        .watch-status {
+            font-size: 0.85rem;
+            padding: 4px 12px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .status-check {
+            background: rgba(100, 100, 100, 0.3);
+            color: #a0a0a0;
+        }
+
+        .code-section {
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .code-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .code-block {
+            background: #0d1117;
+            border-radius: 10px;
+            padding: 20px;
+            overflow-x: auto;
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #c9d1d9;
+        }
+
+        .code-block .comment {
+            color: #8b949e;
+        }
+
+        .code-block .command {
+            color: #79c0ff;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            color: #fff;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2rem;
+            }
+
+            .hero, .watches-section, .code-section {
+                padding: 25px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">Sangin Snoop</h1>
+            <p class="tagline">Watch Availability Checker for Sangin Instruments</p>
+            <span class="badge">Python</span>
+            <span class="badge">Web Scraper</span>
+            <span class="badge">Open Source</span>
+        </header>
+
+        <section class="hero">
+            <h2>Never Miss a Watch Drop Again</h2>
+            <p>
+                Sangin Snoop is a Python-based tool that monitors the availability of luxury
+                tactical watches on the Sangin Instruments website. It automatically checks
+                product pages and reports whether watches are in stock or sold out.
+            </p>
+            <p>
+                Built for watch enthusiasts who want to stay ahead of limited releases and
+                restocks, this lightweight scraper can be run manually or scheduled to check
+                availability at regular intervals.
+            </p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">&#128269;</div>
+                <h3>Smart Detection</h3>
+                <p>Automatically parses product pages and detects "Sold Out" or "Add to Cart" indicators to determine availability.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#9889;</div>
+                <h3>Fast & Lightweight</h3>
+                <p>Uses efficient HTTP requests with session persistence. No heavy browser automation required.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#128736;</div>
+                <h3>Easy to Customize</h3>
+                <p>Simply edit the product handles list to monitor any Sangin watch model you're interested in.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#128737;</div>
+                <h3>Bot Protection Ready</h3>
+                <p>Includes realistic browser headers and session handling to work with standard anti-bot measures.</p>
+            </div>
+        </section>
+
+        <section class="watches-section">
+            <h2>Monitored Watches</h2>
+            <div class="watches-grid">
+                <div class="watch-item">
+                    <div class="watch-name">Atlas II</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Overlord</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Professional</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Neptune</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Merlin</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Dark Merlin</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Kingmaker</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Kinetic II</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Kinetic II Ti</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Hydra</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Overlord SE</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Kinetic Gypsy</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+                <div class="watch-item">
+                    <div class="watch-name">Marauder</div>
+                    <span class="watch-status status-check">Run script to check</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-section">
+            <h2>Quick Start</h2>
+            <div class="code-block">
+                <span class="comment"># Install dependencies</span><br>
+                <span class="command">pip install requests beautifulsoup4</span><br><br>
+                <span class="comment"># Clone the repository</span><br>
+                <span class="command">git clone https://github.com/YOUR_USERNAME/Sangin-Snoop.git</span><br><br>
+                <span class="comment"># Run the availability checker</span><br>
+                <span class="command">python Sanginsnoop.py</span>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <a href="https://github.com/arandomguyhere/Sangin-Snoop" class="cta-button">View on GitHub</a>
+        </section>
+
+        <footer>
+            <p>
+                Sangin Snoop is not affiliated with Sangin Instruments.<br>
+                Built with Python | <a href="https://github.com/arandomguyhere/Sangin-Snoop">GitHub Repository</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
