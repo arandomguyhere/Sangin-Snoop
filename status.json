@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-18T16:47:55.265874+00:00",
+  "last_updated": "2026-01-18T17:18:11.752589+00:00",
   "total_products": 30,
   "products": [
     {
@@ -95,7 +95,7 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unreachable (HTTP 502)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
