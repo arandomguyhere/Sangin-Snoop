@@ -1,60 +1,168 @@
 {
-  "last_updated": "2026-01-24T14:19:20.368490+00:00",
-  "total_products": 13,
+  "last_updated": "2026-01-24T14:44:33.023619+00:00",
+  "total_products": 30,
   "products": [
     {
-      "name": "Atlas Ii",
-      "handle": "atlas-ii",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/atlas-ii"
-    },
-    {
-      "name": "Overlord",
-      "handle": "overlord",
-      "status": "unreachable (HTTP 404)",
-      "url": "https://sangininstruments.com/products/overlord"
-    },
-    {
-      "name": "Professional",
-      "handle": "professional",
+      "name": "Titan",
+      "handle": "titan",
       "status": "sold out",
-      "url": "https://sangininstruments.com/products/professional"
+      "url": "https://sangininstruments.com/products/titan"
     },
     {
-      "name": "Neptune",
-      "handle": "neptune",
+      "name": "Usss Rescue Swimmer",
+      "handle": "usss-rescue-swimmer",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
+    },
+    {
+      "name": "Silent Eagle 1",
+      "handle": "silent-eagle-1",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/silent-eagle-1"
+    },
+    {
+      "name": "Kinetic Ii Ti Special Edition",
+      "handle": "kinetic-ii-ti-special-edition",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
+    },
+    {
+      "name": "Kinetic Ii Ti Special Edition Owners Group",
+      "handle": "kinetic-ii-ti-special-edition-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
+    },
+    {
+      "name": "Professional Chronograph Plankowner",
+      "handle": "professional-chronograph-plankowner",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
+    },
+    {
+      "name": "Sams Planner",
+      "handle": "sams-planner",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/sams-planner"
+    },
+    {
+      "name": "Combined Arms",
+      "handle": "combined-arms",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/combined-arms"
+    },
+    {
+      "name": "Neptune Leo Special Investigation Section",
+      "handle": "neptune-leo-special-investigation-section",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
+    },
+    {
+      "name": "Atlas",
+      "handle": "atlas",
       "status": "sold out",
-      "url": "https://sangininstruments.com/products/neptune"
+      "url": "https://sangininstruments.com/products/atlas"
     },
     {
-      "name": "Merlin",
-      "handle": "merlin",
-      "status": "unreachable (HTTP 404)",
-      "url": "https://sangininstruments.com/products/merlin"
-    },
-    {
-      "name": "Dark Merlin",
-      "handle": "dark-merlin",
+      "name": "Professional Chronograph",
+      "handle": "professional-chronograph",
       "status": "sold out",
-      "url": "https://sangininstruments.com/products/dark-merlin"
+      "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
-      "name": "Kingmaker",
-      "handle": "kingmaker",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/kingmaker"
+      "name": "Atlas Sof",
+      "handle": "atlas-sof",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/atlas-sof"
     },
     {
-      "name": "Kinetic Ii",
-      "handle": "kinetic-ii",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/kinetic-ii"
+      "name": "Atlas Fr",
+      "handle": "atlas-fr",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
-      "name": "Kinetic Ii Ti",
-      "handle": "kinetic-ii-ti",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti"
+      "name": "Atlas Leo",
+      "handle": "atlas-leo",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/atlas-leo"
+    },
+    {
+      "name": "Sotf L 51",
+      "handle": "sotf-l-51",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/sotf-l-51"
+    },
+    {
+      "name": "Sotf L 51 Sof",
+      "handle": "sotf-l-51-sof",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/sotf-l-51-sof"
+    },
+    {
+      "name": "Wpd Swat",
+      "handle": "wpd-swat",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/wpd-swat"
+    },
+    {
+      "name": "Guardian",
+      "handle": "guardian",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/guardian"
+    },
+    {
+      "name": "Humorless",
+      "handle": "humorless",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/humorless"
+    },
+    {
+      "name": "Bonegoat",
+      "handle": "bonegoat",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/bonegoat"
+    },
+    {
+      "name": "Condor Friday",
+      "handle": "condor-friday",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/condor-friday"
+    },
+    {
+      "name": "September 12Th",
+      "handle": "september-12th",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/september-12th"
+    },
+    {
+      "name": "Blue Team",
+      "handle": "blue-team",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/blue-team"
+    },
+    {
+      "name": "Jolly Roger",
+      "handle": "jolly-roger",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/jolly-roger"
+    },
+    {
+      "name": "Hydra Ii Plankowner",
+      "handle": "hydra-ii-plankowner",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/hydra-ii-plankowner"
+    },
+    {
+      "name": "Vsp Sod",
+      "handle": "vsp-sod",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/vsp-sod"
+    },
+    {
+      "name": "Apd Swat",
+      "handle": "apd-swat",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/apd-swat"
     },
     {
       "name": "Hydra",
@@ -63,22 +171,16 @@
       "url": "https://sangininstruments.com/products/hydra"
     },
     {
-      "name": "Overlord Special Edition",
-      "handle": "overlord-special-edition",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/overlord-special-edition"
-    },
-    {
-      "name": "Kinetic Gypsy",
-      "handle": "kinetic-gypsy",
-      "status": "unreachable (HTTP 404)",
-      "url": "https://sangininstruments.com/products/kinetic-gypsy"
-    },
-    {
-      "name": "Marauder",
-      "handle": "marauder",
+      "name": "305 Rqs",
+      "handle": "305-rqs",
       "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/marauder"
+      "url": "https://sangininstruments.com/products/305-rqs"
+    },
+    {
+      "name": "Cad Heritage",
+      "handle": "cad-heritage",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/cad-heritage"
     }
   ]
 }
