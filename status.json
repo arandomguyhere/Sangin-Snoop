@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-01-28T17:32:13.609241+00:00",
+  "last_updated": "2026-01-28T18:37:22.473317+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Les Singes Qui Sautent",
+      "handle": "les-singes-qui-sautent",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
+    },
     {
       "name": "Titan",
       "handle": "titan",
@@ -175,12 +181,6 @@
       "handle": "305-rqs",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/305-rqs"
-    },
-    {
-      "name": "Cad Heritage",
-      "handle": "cad-heritage",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cad-heritage"
     }
   ]
 }
