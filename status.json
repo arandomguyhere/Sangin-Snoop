@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-08T15:50:58.367855+00:00",
+  "last_updated": "2026-02-08T16:30:51.102520+00:00",
   "total_products": 30,
   "products": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Atlas Sof",
       "handle": "atlas-sof",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-sof"
     },
     {
@@ -119,7 +119,7 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
