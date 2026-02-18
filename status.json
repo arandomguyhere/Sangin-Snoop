@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T04:33:08.351100+00:00",
+  "last_updated": "2026-02-18T06:01:18.153771+00:00",
   "total_products": 30,
   "products": [
     {
@@ -47,13 +47,13 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
@@ -149,7 +149,7 @@
     {
       "name": "September 12Th",
       "handle": "september-12th",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/september-12th"
     },
     {
