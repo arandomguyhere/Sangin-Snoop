@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T21:32:33.860849+00:00",
+  "last_updated": "2026-02-19T22:31:37.324625+00:00",
   "total_products": 30,
   "products": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
