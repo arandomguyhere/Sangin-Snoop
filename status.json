@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-23T10:51:12.796818+00:00",
+  "last_updated": "2026-02-23T11:40:10.240323+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
