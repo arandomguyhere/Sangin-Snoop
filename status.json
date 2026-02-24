@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T08:52:46.031478+00:00",
+  "last_updated": "2026-02-24T09:53:10.668962+00:00",
   "total_products": 30,
   "products": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
@@ -131,25 +131,25 @@
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     },
     {
       "name": "Bonegoat",
       "handle": "bonegoat",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/bonegoat"
     },
     {
       "name": "Condor Friday",
       "handle": "condor-friday",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/condor-friday"
     },
     {
       "name": "September 12Th",
       "handle": "september-12th",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/september-12th"
     },
     {
