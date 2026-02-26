@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T13:04:54.527593+00:00",
+  "last_updated": "2026-02-26T14:31:11.040619+00:00",
   "total_products": 30,
   "products": [
     {
@@ -53,7 +53,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
