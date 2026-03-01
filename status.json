@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-01T15:46:23.456000+00:00",
+  "last_updated": "2026-03-01T16:27:43.099028+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Gbrs Group Kinetic Ii Ti V2",
+      "handle": "gbrs-group-kinetic-ii-ti-v2",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
+    },
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
@@ -175,12 +181,6 @@
       "handle": "hydra-ii-plankowner",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/hydra-ii-plankowner"
-    },
-    {
-      "name": "Vsp Sod",
-      "handle": "vsp-sod",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/vsp-sod"
     }
   ]
 }
