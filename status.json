@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-03T19:57:33.482187+00:00",
+  "last_updated": "2026-03-03T20:36:50.347233+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "A 10C Exterminator",
+      "handle": "a-10c-exterminator",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/a-10c-exterminator"
+    },
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
@@ -175,12 +181,6 @@
       "handle": "jolly-roger",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/jolly-roger"
-    },
-    {
-      "name": "Hydra Ii Plankowner",
-      "handle": "hydra-ii-plankowner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/hydra-ii-plankowner"
     }
   ]
 }
