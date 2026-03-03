@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T14:01:22.095360+00:00",
+  "last_updated": "2026-03-03T15:12:24.805487+00:00",
   "total_products": 30,
   "products": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
@@ -77,13 +77,13 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
