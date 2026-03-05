@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-05T22:31:19.374428+00:00",
+  "last_updated": "2026-03-05T23:51:24.904886+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Cobra Huey",
+      "handle": "cobra-huey",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/cobra-huey"
+    },
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
@@ -175,12 +181,6 @@
       "handle": "september-12th",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/september-12th"
-    },
-    {
-      "name": "Blue Team",
-      "handle": "blue-team",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/blue-team"
     }
   ]
 }
