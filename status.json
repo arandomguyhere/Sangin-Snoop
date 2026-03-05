@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T02:01:25.614588+00:00",
+  "last_updated": "2026-03-05T04:23:46.096659+00:00",
   "total_products": 30,
   "products": [
     {
@@ -143,7 +143,7 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
