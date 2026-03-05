@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-05T21:34:56.041048+00:00",
+  "last_updated": "2026-03-05T22:31:19.374428+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Longhorn Mba",
+      "handle": "longhorn-mba",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/longhorn-mba"
+    },
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
@@ -175,12 +181,6 @@
       "handle": "blue-team",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/blue-team"
-    },
-    {
-      "name": "Jolly Roger",
-      "handle": "jolly-roger",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/jolly-roger"
     }
   ]
 }
