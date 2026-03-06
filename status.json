@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-05T23:51:24.904886+00:00",
+  "last_updated": "2026-03-06T02:01:24.102269+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Nomad",
+      "handle": "nomad",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/nomad"
+    },
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
@@ -175,12 +181,6 @@
       "handle": "condor-friday",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/condor-friday"
-    },
-    {
-      "name": "September 12Th",
-      "handle": "september-12th",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/september-12th"
     }
   ]
 }
