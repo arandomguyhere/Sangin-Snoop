@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T21:32:52.844699+00:00",
+  "last_updated": "2026-03-13T22:28:11.203731+00:00",
   "total_products": 30,
   "products": [
     {
@@ -53,19 +53,19 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
       "name": "Titan",
       "handle": "titan",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/titan"
     },
     {
       "name": "Usss Rescue Swimmer",
       "handle": "usss-rescue-swimmer",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
