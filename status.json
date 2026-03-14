@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T12:50:47.642006+00:00",
+  "last_updated": "2026-03-14T13:45:28.374789+00:00",
   "total_products": 30,
   "products": [
     {
@@ -137,7 +137,7 @@
     {
       "name": "Atlas Leo",
       "handle": "atlas-leo",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-leo"
     },
     {
@@ -149,25 +149,25 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     },
     {
