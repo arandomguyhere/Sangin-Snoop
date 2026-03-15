@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T02:23:01.874800+00:00",
+  "last_updated": "2026-03-15T04:44:03.781689+00:00",
   "total_products": 30,
   "products": [
     {
@@ -23,7 +23,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
@@ -107,13 +107,13 @@
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
