@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T09:39:54.865160+00:00",
+  "last_updated": "2026-03-16T11:46:32.156879+00:00",
   "total_products": 30,
   "products": [
     {
@@ -59,7 +59,7 @@
     {
       "name": "Titan",
       "handle": "titan",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/titan"
     },
     {
