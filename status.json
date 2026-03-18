@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T07:36:22.764977+00:00",
+  "last_updated": "2026-03-18T08:50:40.233636+00:00",
   "total_products": 30,
   "products": [
     {
@@ -167,19 +167,19 @@
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/humorless"
     },
     {
       "name": "Bonegoat",
       "handle": "bonegoat",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/bonegoat"
     },
     {
       "name": "Condor Friday",
       "handle": "condor-friday",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/condor-friday"
     }
   ]
