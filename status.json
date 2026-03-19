@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T21:35:08.569612+00:00",
+  "last_updated": "2026-03-19T22:28:39.836071+00:00",
   "total_products": 30,
   "products": [
     {
@@ -83,7 +83,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
