@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T22:58:13.469009+00:00",
+  "last_updated": "2026-03-19T23:35:25.026910+00:00",
   "total_products": 30,
   "products": [
     {
@@ -149,13 +149,13 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
