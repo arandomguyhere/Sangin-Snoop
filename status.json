@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-20T15:13:42.196714+00:00",
+  "last_updated": "2026-03-20T16:05:34.258476+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Drifter",
+      "handle": "drifter",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/drifter"
+    },
     {
       "name": "Icarus",
       "handle": "icarus",
@@ -175,12 +181,6 @@
       "handle": "humorless",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
-    },
-    {
-      "name": "Bonegoat",
-      "handle": "bonegoat",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/bonegoat"
     }
   ]
 }
