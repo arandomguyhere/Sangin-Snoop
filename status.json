@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-03-20T14:03:51.838826+00:00",
+  "last_updated": "2026-03-20T15:13:42.196714+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Icarus",
+      "handle": "icarus",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/icarus"
+    },
     {
       "name": "Nomad",
       "handle": "nomad",
@@ -175,12 +181,6 @@
       "handle": "bonegoat",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/bonegoat"
-    },
-    {
-      "name": "Condor Friday",
-      "handle": "condor-friday",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/condor-friday"
     }
   ]
 }
