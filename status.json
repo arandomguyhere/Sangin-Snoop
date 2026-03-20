@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T11:31:52.145419+00:00",
+  "last_updated": "2026-03-20T12:58:27.409922+00:00",
   "total_products": 30,
   "products": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
