@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-19T23:35:25.026910+00:00",
+  "last_updated": "2026-03-20T02:02:11.284074+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -149,13 +149,13 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
