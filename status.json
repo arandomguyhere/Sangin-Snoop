@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:51:04.633965+00:00",
+  "last_updated": "2026-03-21T23:24:32.899160+00:00",
   "total_products": 30,
   "products": [
     {
@@ -23,25 +23,25 @@
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
@@ -173,13 +173,13 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/humorless"
     }
   ]
