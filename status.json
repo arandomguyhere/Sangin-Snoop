@@ -1,72 +1,18 @@
 {
-  "last_updated": "2026-03-21T18:36:24.599194+00:00",
-  "total_products": 30,
+  "last_updated": "2026-03-21T19:24:41.030551+00:00",
+  "total_products": 50,
   "products": [
     {
-      "name": "Drifter",
-      "handle": "drifter",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/drifter"
+      "name": "Overlord Field Watch",
+      "handle": "overlord-field-watch",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/overlord-field-watch"
     },
     {
-      "name": "Icarus",
-      "handle": "icarus",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/icarus"
-    },
-    {
-      "name": "Nomad",
-      "handle": "nomad",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/nomad"
-    },
-    {
-      "name": "Cobra Huey",
-      "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cobra-huey"
-    },
-    {
-      "name": "Longhorn Mba",
-      "handle": "longhorn-mba",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/longhorn-mba"
-    },
-    {
-      "name": "A 10C Exterminator",
-      "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/a-10c-exterminator"
-    },
-    {
-      "name": "Gbrs Group Kinetic Ii Ti V2",
-      "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition 1",
-      "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
-    },
-    {
-      "name": "Kinetic Ii Expedition",
-      "handle": "kinetic-ii-expedition",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
-    },
-    {
-      "name": "Anglico Neptune 1",
-      "handle": "anglico-neptune-1",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/anglico-neptune-1"
-    },
-    {
-      "name": "Les Singes Qui Sautent",
-      "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
+      "name": "Kingmaker",
+      "handle": "kingmaker",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/kingmaker"
     },
     {
       "name": "Titan",
@@ -75,52 +21,10 @@
       "url": "https://sangininstruments.com/products/titan"
     },
     {
-      "name": "Usss Rescue Swimmer",
-      "handle": "usss-rescue-swimmer",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
-    },
-    {
-      "name": "Silent Eagle 1",
-      "handle": "silent-eagle-1",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/silent-eagle-1"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition",
-      "handle": "kinetic-ii-ti-special-edition",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition Owners Group",
-      "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
-    },
-    {
-      "name": "Professional Chronograph Plankowner",
-      "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
-    },
-    {
-      "name": "Sams Planner",
-      "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sams-planner"
-    },
-    {
-      "name": "Combined Arms",
-      "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/combined-arms"
-    },
-    {
-      "name": "Neptune Leo Special Investigation Section",
-      "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
+      "name": "Hydra",
+      "handle": "hydra",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/hydra"
     },
     {
       "name": "Atlas",
@@ -129,58 +33,274 @@
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
+      "name": "Kinetic Ii Ti",
+      "handle": "kinetic-ii-ti",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti"
+    },
+    {
+      "name": "Neptune",
+      "handle": "neptune",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/neptune"
+    },
+    {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
       "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
+      "name": "Professional",
+      "handle": "professional",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/professional"
+    },
+    {
+      "name": "Kinetic Ii",
+      "handle": "kinetic-ii",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/kinetic-ii"
+    },
+    {
+      "name": "Kinetic Ii Expedition",
+      "handle": "kinetic-ii-expedition",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
+    },
+    {
+      "name": "Dark Merlin",
+      "handle": "dark-merlin",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/dark-merlin"
+    },
+    {
+      "name": "Overlord Special Edition",
+      "handle": "overlord-special-edition",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/overlord-special-edition"
+    },
+    {
+      "name": "Kinetic Ii Limited Edition",
+      "handle": "kinetic-ii-limited-edition",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/kinetic-ii-limited-edition"
+    },
+    {
+      "name": "Kinetic Ii Ti Special Edition 1",
+      "handle": "kinetic-ii-ti-special-edition-1",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
+    },
+    {
+      "name": "Gbrs Group Kinetic Ii Ti V2",
+      "handle": "gbrs-group-kinetic-ii-ti-v2",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
+    },
+    {
+      "name": "The Expedition Strap",
+      "handle": "the-expedition-strap",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/the-expedition-strap"
+    },
+    {
+      "name": "Rubber Decon Strap",
+      "handle": "rubber-decon-strap",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/rubber-decon-strap"
+    },
+    {
+      "name": "Horween Leather Watch Strap 1",
+      "handle": "horween-leather-watch-strap-1",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/horween-leather-watch-strap-1"
+    },
+    {
+      "name": "Genuine Leather Watch Strap",
+      "handle": "genuine-leather-watch-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/genuine-leather-watch-strap"
+    },
+    {
+      "name": "Oth Watch Strap",
+      "handle": "oth-watch-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/oth-watch-strap"
+    },
+    {
+      "name": "Diplomat Bracelet",
+      "handle": "diplomat-bracelet",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/diplomat-bracelet"
+    },
+    {
+      "name": "Nco Strap",
+      "handle": "nco-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/nco-strap"
+    },
+    {
+      "name": "Halyard Strap",
+      "handle": "halyard-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/halyard-strap"
+    },
+    {
+      "name": "Latitude",
+      "handle": "latitude",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/latitude"
+    },
+    {
+      "name": "The Corsair Carbon Camo 1",
+      "handle": "the-corsair-carbon-camo-1",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/the-corsair-carbon-camo-1"
+    },
+    {
+      "name": "Custom Antique Ivory Paper Micarta Espina",
+      "handle": "custom-antique-ivory-paper-micarta-espina",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/custom-antique-ivory-paper-micarta-espina"
+    },
+    {
+      "name": "Black Paper Micarta Espina",
+      "handle": "black-paper-micarta-espina",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/black-paper-micarta-espina"
+    },
+    {
+      "name": "Custom Brass Inlay Fkx Dagger",
+      "handle": "custom-brass-inlay-fkx-dagger",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/custom-brass-inlay-fkx-dagger"
+    },
+    {
+      "name": "Custom Ironwood Espina",
+      "handle": "custom-ironwood-espina",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/custom-ironwood-espina"
+    },
+    {
+      "name": "Sangin Team Patch",
+      "handle": "sangin-team-patch",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-team-patch"
+    },
+    {
+      "name": "Anonymousshirt",
+      "handle": "anonymousshirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/anonymousshirt"
+    },
+    {
+      "name": "Sangin Frogskin Shirt",
+      "handle": "sangin-frogskin-shirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-frogskin-shirt"
+    },
+    {
+      "name": "Sangin Mountains Shirt",
+      "handle": "sangin-mountains-shirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-mountains-shirt"
+    },
+    {
+      "name": "Seas To The Summits Shirt",
+      "handle": "seas-to-the-summits-shirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/seas-to-the-summits-shirt"
+    },
+    {
+      "name": "Sangin Lighthouse Shirt",
+      "handle": "sangin-lighthouse-shirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-lighthouse-shirt"
+    },
+    {
+      "name": "Humble Beginnings Shirt",
+      "handle": "humble-beginnings-shirt",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/humble-beginnings-shirt"
+    },
+    {
+      "name": "Courier Watch Roll",
+      "handle": "courier-watch-roll",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/courier-watch-roll"
+    },
+    {
+      "name": "Watch Roll",
+      "handle": "watch-roll",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/watch-roll"
+    },
+    {
+      "name": "Sangin Ti2 Pen",
+      "handle": "sangin-ti2-pen",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-ti2-pen"
+    },
+    {
+      "name": "Navigator Compass",
+      "handle": "navigator-compass",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/navigator-compass"
+    },
+    {
+      "name": "Sangin Spring Bar Tool",
+      "handle": "sangin-spring-bar-tool",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-spring-bar-tool"
+    },
+    {
+      "name": "Sangin Bars",
+      "handle": "sangin-bars",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/sangin-bars"
+    },
+    {
+      "name": "Kinetic Gypsy",
+      "handle": "kinetic-gypsy",
+      "status": "unreachable (HTTP 404)",
+      "url": "https://sangininstruments.com/products/kinetic-gypsy"
+    },
+    {
+      "name": "Replacement Strap",
+      "handle": "replacement-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/replacement-strap"
+    },
+    {
+      "name": "Long Sleeve",
+      "handle": "long-sleeve",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/long-sleeve"
+    },
+    {
+      "name": "Team Hat",
+      "handle": "team-hat",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/team-hat"
+    },
+    {
+      "name": "Admiral",
+      "handle": "admiral",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/admiral"
+    },
+    {
+      "name": "Art Vectorization",
+      "handle": "art-vectorization",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/art-vectorization"
+    },
+    {
       "name": "Atlas Sof",
       "handle": "atlas-sof",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-sof"
-    },
-    {
-      "name": "Atlas Fr",
-      "handle": "atlas-fr",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/atlas-fr"
-    },
-    {
-      "name": "Atlas Leo",
-      "handle": "atlas-leo",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/atlas-leo"
-    },
-    {
-      "name": "Sotf L 51",
-      "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sotf-l-51"
-    },
-    {
-      "name": "Sotf L 51 Sof",
-      "handle": "sotf-l-51-sof",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sotf-l-51-sof"
-    },
-    {
-      "name": "Wpd Swat",
-      "handle": "wpd-swat",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/wpd-swat"
-    },
-    {
-      "name": "Guardian",
-      "handle": "guardian",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/guardian"
-    },
-    {
-      "name": "Humorless",
-      "handle": "humorless",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/humorless"
     }
   ]
 }
