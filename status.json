@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T10:27:35.553135+00:00",
+  "last_updated": "2026-03-22T10:55:08.868815+00:00",
   "total_products": 30,
   "products": [
     {
@@ -83,7 +83,7 @@
     {
       "name": "Silent Eagle 1",
       "handle": "silent-eagle-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
