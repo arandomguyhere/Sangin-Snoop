@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T15:26:32.040656+00:00",
+  "last_updated": "2026-03-22T15:49:43.981422+00:00",
   "total_products": 30,
   "products": [
     {
@@ -131,7 +131,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
