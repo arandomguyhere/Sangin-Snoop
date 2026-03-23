@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T20:03:22.290115+00:00",
+  "last_updated": "2026-03-23T21:02:49.671011+00:00",
   "total_products": 30,
   "products": [
     {
@@ -113,13 +113,13 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
@@ -143,13 +143,13 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
       "name": "Atlas Leo",
       "handle": "atlas-leo",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-leo"
     },
     {
