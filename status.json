@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T19:27:30.348567+00:00",
+  "last_updated": "2026-03-23T20:03:22.290115+00:00",
   "total_products": 30,
   "products": [
     {
@@ -113,13 +113,13 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -149,13 +149,13 @@
     {
       "name": "Atlas Leo",
       "handle": "atlas-leo",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-leo"
     },
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
