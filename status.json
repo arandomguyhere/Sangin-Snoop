@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T18:09:30.712986+00:00",
+  "last_updated": "2026-03-23T19:27:30.348567+00:00",
   "total_products": 30,
   "products": [
     {
@@ -131,7 +131,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
