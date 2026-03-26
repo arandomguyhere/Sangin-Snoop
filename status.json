@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-26T12:08:27.993500+00:00",
+  "last_updated": "2026-03-26T14:05:28.376920+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Drifter",
       "handle": "drifter",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/drifter"
     },
     {
@@ -17,13 +17,13 @@
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
