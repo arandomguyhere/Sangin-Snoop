@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T06:13:07.206861+00:00",
+  "last_updated": "2026-03-26T07:42:42.994708+00:00",
   "total_products": 30,
   "products": [
     {
@@ -107,7 +107,7 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
@@ -119,7 +119,7 @@
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
