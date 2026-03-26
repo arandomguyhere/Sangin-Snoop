@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T14:05:28.376920+00:00",
+  "last_updated": "2026-03-26T15:51:17.486532+00:00",
   "total_products": 30,
   "products": [
     {
@@ -17,13 +17,13 @@
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
