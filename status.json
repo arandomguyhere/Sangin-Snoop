@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T04:56:22.092263+00:00",
+  "last_updated": "2026-03-27T06:13:25.465950+00:00",
   "total_products": 30,
   "products": [
     {
@@ -101,13 +101,13 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "Neptune Leo Special Investigation Section",
       "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
     },
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "Atlas Sof",
       "handle": "atlas-sof",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-sof"
     },
     {
