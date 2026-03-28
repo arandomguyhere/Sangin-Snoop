@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-28T17:28:50.972875+00:00",
+  "last_updated": "2026-03-28T17:57:14.918660+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Drifter",
       "handle": "drifter",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/drifter"
     },
     {
       "name": "Icarus",
       "handle": "icarus",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/icarus"
     },
     {
@@ -23,13 +23,13 @@
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
@@ -41,13 +41,13 @@
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Usss Rescue Swimmer",
       "handle": "usss-rescue-swimmer",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
     },
     {
@@ -89,13 +89,13 @@
     {
       "name": "Kinetic Ii Ti Special Edition",
       "handle": "kinetic-ii-ti-special-edition",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
     },
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -113,7 +113,7 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -125,25 +125,25 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
       "name": "Atlas Sof",
       "handle": "atlas-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-sof"
     },
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     }
   ]
