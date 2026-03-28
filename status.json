@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-28T15:30:48.483384+00:00",
+  "last_updated": "2026-03-28T15:57:57.793448+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Drifter",
       "handle": "drifter",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/drifter"
     },
     {
@@ -23,13 +23,13 @@
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
@@ -113,7 +113,7 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -149,19 +149,19 @@
     {
       "name": "Atlas Leo",
       "handle": "atlas-leo",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-leo"
     },
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
       "name": "Sotf L 51 Sof",
       "handle": "sotf-l-51-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     }
   ]
