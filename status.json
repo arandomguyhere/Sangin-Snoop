@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T17:29:50.058894+00:00",
+  "last_updated": "2026-03-29T17:59:52.367533+00:00",
   "total_products": 30,
   "products": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Silent Eagle 1",
       "handle": "silent-eagle-1",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
     },
     {
@@ -107,13 +107,13 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
