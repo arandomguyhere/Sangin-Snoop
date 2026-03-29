@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T07:34:29.939534+00:00",
+  "last_updated": "2026-03-29T08:39:32.277118+00:00",
   "total_products": 30,
   "products": [
     {
@@ -35,13 +35,13 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
@@ -77,7 +77,7 @@
     {
       "name": "Usss Rescue Swimmer",
       "handle": "usss-rescue-swimmer",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
     },
     {
@@ -101,19 +101,19 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -173,13 +173,13 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     }
   ]
