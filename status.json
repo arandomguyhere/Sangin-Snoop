@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T17:59:52.367533+00:00",
+  "last_updated": "2026-03-29T18:57:19.081410+00:00",
   "total_products": 30,
   "products": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -107,13 +107,13 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -167,13 +167,13 @@
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
