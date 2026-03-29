@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T15:31:33.819820+00:00",
+  "last_updated": "2026-03-29T16:35:05.145572+00:00",
   "total_products": 30,
   "products": [
     {
@@ -29,13 +29,13 @@
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -47,19 +47,19 @@
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -149,7 +149,7 @@
     {
       "name": "Atlas Leo",
       "handle": "atlas-leo",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-leo"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
