@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T18:57:19.081410+00:00",
+  "last_updated": "2026-03-29T19:34:23.587500+00:00",
   "total_products": 30,
   "products": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Silent Eagle 1",
       "handle": "silent-eagle-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -167,7 +167,7 @@
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
