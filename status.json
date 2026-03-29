@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T23:38:28.554390+00:00",
+  "last_updated": "2026-03-29T02:24:30.681953+00:00",
   "total_products": 30,
   "products": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
