@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T17:29:15.615738+00:00",
+  "last_updated": "2026-03-30T18:32:50.001741+00:00",
   "total_products": 30,
   "products": [
     {
@@ -95,7 +95,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -107,13 +107,13 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -125,25 +125,25 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
       "name": "Atlas Sof",
       "handle": "atlas-sof",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-sof"
     },
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Sotf L 51",
       "handle": "sotf-l-51",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51"
     },
     {
@@ -167,19 +167,19 @@
     {
       "name": "Wpd Swat",
       "handle": "wpd-swat",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/wpd-swat"
     },
     {
       "name": "Guardian",
       "handle": "guardian",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/guardian"
     },
     {
       "name": "Humorless",
       "handle": "humorless",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/humorless"
     }
   ]
