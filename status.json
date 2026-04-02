@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-04-02T22:31:24.952957+00:00",
+  "last_updated": "2026-04-02T23:35:19.870920+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Blackhat Overlord",
+      "handle": "blackhat-overlord",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/blackhat-overlord"
+    },
     {
       "name": "Neptune Sas",
       "handle": "neptune-sas",
@@ -175,12 +181,6 @@
       "handle": "sotf-l-51-sof",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51-sof"
-    },
-    {
-      "name": "Wpd Swat",
-      "handle": "wpd-swat",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/wpd-swat"
     }
   ]
 }
