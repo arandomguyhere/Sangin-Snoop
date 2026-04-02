@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-04-02T15:35:26.702311+00:00",
+  "last_updated": "2026-04-02T16:56:29.170553+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Neptune Sas",
+      "handle": "neptune-sas",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/neptune-sas"
+    },
+    {
+      "name": "N349Ca",
+      "handle": "n349ca",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/n349ca"
+    },
     {
       "name": "Drifter",
       "handle": "drifter",
@@ -169,18 +181,6 @@
       "handle": "wpd-swat",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/wpd-swat"
-    },
-    {
-      "name": "Guardian",
-      "handle": "guardian",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/guardian"
-    },
-    {
-      "name": "Humorless",
-      "handle": "humorless",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/humorless"
     }
   ]
 }
