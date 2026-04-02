@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T07:47:33.489208+00:00",
+  "last_updated": "2026-04-02T08:56:22.235553+00:00",
   "total_products": 30,
   "products": [
     {
@@ -101,7 +101,7 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
