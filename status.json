@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-04-02T23:35:19.870920+00:00",
+  "last_updated": "2026-04-03T02:12:40.248290+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Teams Nj Sp Unit Timepiece",
+      "handle": "teams-nj-sp-unit-timepiece",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/teams-nj-sp-unit-timepiece"
+    },
     {
       "name": "Blackhat Overlord",
       "handle": "blackhat-overlord",
@@ -175,12 +181,6 @@
       "handle": "sotf-l-51",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sotf-l-51"
-    },
-    {
-      "name": "Sotf L 51 Sof",
-      "handle": "sotf-l-51-sof",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sotf-l-51-sof"
     }
   ]
 }
