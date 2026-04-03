@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-04-03T14:12:14.038071+00:00",
+  "last_updated": "2026-04-03T15:09:11.274545+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Mnpd Swat 50Th Anniv",
+      "handle": "mnpd-swat-50th-anniv",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
+    },
     {
       "name": "Teams Nj Sp Unit Timepiece",
       "handle": "teams-nj-sp-unit-timepiece",
@@ -175,12 +181,6 @@
       "handle": "atlas-leo",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-leo"
-    },
-    {
-      "name": "Sotf L 51",
-      "handle": "sotf-l-51",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sotf-l-51"
     }
   ]
 }
