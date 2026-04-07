@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T22:04:30.768683+00:00",
+  "last_updated": "2026-04-07T23:06:52.205748+00:00",
   "total_products": 30,
   "products": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
