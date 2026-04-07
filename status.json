@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T06:21:16.741107+00:00",
+  "last_updated": "2026-04-07T07:56:33.651516+00:00",
   "total_products": 30,
   "products": [
     {
@@ -59,7 +59,7 @@
     {
       "name": "Longhorn Mba",
       "handle": "longhorn-mba",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/longhorn-mba"
     },
     {
