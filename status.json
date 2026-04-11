@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T16:36:41.250745+00:00",
+  "last_updated": "2026-04-11T17:31:11.755084+00:00",
   "total_products": 30,
   "products": [
     {
@@ -137,13 +137,13 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/combined-arms"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
