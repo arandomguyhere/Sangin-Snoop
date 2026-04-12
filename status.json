@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T10:07:07.065604+00:00",
+  "last_updated": "2026-04-12T11:06:42.790783+00:00",
   "total_products": 30,
   "products": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
@@ -119,7 +119,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition",
       "handle": "kinetic-ii-ti-special-edition",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
     },
     {
