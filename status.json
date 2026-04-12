@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T13:04:36.455699+00:00",
+  "last_updated": "2026-04-12T14:09:31.383877+00:00",
   "total_products": 30,
   "products": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
