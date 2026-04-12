@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T11:56:52.578414+00:00",
+  "last_updated": "2026-04-12T13:04:36.455699+00:00",
   "total_products": 30,
   "products": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
@@ -65,7 +65,7 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "Sams Planner",
       "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sams-planner"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Atlas Fr",
       "handle": "atlas-fr",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
     },
     {
