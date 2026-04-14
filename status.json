@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-04-14T15:13:08.750948+00:00",
+  "last_updated": "2026-04-14T16:40:34.686436+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "3Rd Laab",
+      "handle": "3rd-laab",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/3rd-laab"
+    },
     {
       "name": "Mnpd Swat 50Th Anniv",
       "handle": "mnpd-swat-50th-anniv",
@@ -175,12 +181,6 @@
       "handle": "atlas-fr",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-fr"
-    },
-    {
-      "name": "Atlas Leo",
-      "handle": "atlas-leo",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/atlas-leo"
     }
   ]
 }
