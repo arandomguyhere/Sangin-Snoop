@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T21:35:34.997349+00:00",
+  "last_updated": "2026-04-18T22:34:41.093904+00:00",
   "total_products": 30,
   "products": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Drifter",
       "handle": "drifter",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/drifter"
     },
     {
