@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T05:29:02.496616+00:00",
+  "last_updated": "2026-04-19T06:59:11.284863+00:00",
   "total_products": 30,
   "products": [
     {
@@ -59,7 +59,7 @@
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
@@ -95,7 +95,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
