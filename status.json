@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-04-20T19:12:25.909193+00:00",
+  "last_updated": "2026-04-20T20:10:33.648753+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Outlaw",
+      "handle": "outlaw",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/outlaw"
+    },
     {
       "name": "3Rd Laab",
       "handle": "3rd-laab",
@@ -175,12 +181,6 @@
       "handle": "atlas-sof",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/atlas-sof"
-    },
-    {
-      "name": "Atlas Fr",
-      "handle": "atlas-fr",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/atlas-fr"
     }
   ]
 }
