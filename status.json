@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T23:45:18.846368+00:00",
+  "last_updated": "2026-04-23T02:33:53.086553+00:00",
   "total_products": 30,
   "products": [
     {
@@ -137,7 +137,7 @@
     {
       "name": "Silent Eagle 1",
       "handle": "silent-eagle-1",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
     },
     {
