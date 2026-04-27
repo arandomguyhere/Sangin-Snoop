@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-04-27T16:26:21.507806+00:00",
+  "last_updated": "2026-04-27T17:49:08.159614+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Scottsdale Charros",
+      "handle": "scottsdale-charros",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/scottsdale-charros"
+    },
+    {
+      "name": "Cirt Atlas",
+      "handle": "cirt-atlas",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/cirt-atlas"
+    },
     {
       "name": "Psp",
       "handle": "psp",
@@ -169,18 +181,6 @@
       "handle": "combined-arms",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
-    },
-    {
-      "name": "Neptune Leo Special Investigation Section",
-      "handle": "neptune-leo-special-investigation-section",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/neptune-leo-special-investigation-section"
-    },
-    {
-      "name": "Atlas",
-      "handle": "atlas",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/atlas"
     }
   ]
 }
