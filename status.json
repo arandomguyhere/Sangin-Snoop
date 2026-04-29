@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-29T19:40:39.301380+00:00",
+  "last_updated": "2026-04-29T21:04:27.054075+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Scottsdale Charros",
       "handle": "scottsdale-charros",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/scottsdale-charros"
     },
     {
@@ -17,7 +17,7 @@
     {
       "name": "Psp",
       "handle": "psp",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/psp"
     },
     {
@@ -41,37 +41,37 @@
     {
       "name": "Mnpd Swat 50Th Anniv",
       "handle": "mnpd-swat-50th-anniv",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
     },
     {
       "name": "Teams Nj Sp Unit Timepiece",
       "handle": "teams-nj-sp-unit-timepiece",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/teams-nj-sp-unit-timepiece"
     },
     {
       "name": "Blackhat Overlord",
       "handle": "blackhat-overlord",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/blackhat-overlord"
     },
     {
       "name": "Neptune Sas",
       "handle": "neptune-sas",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-sas"
     },
     {
       "name": "N349Ca",
       "handle": "n349ca",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/n349ca"
     },
     {
       "name": "Drifter",
       "handle": "drifter",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/drifter"
     },
     {
@@ -83,13 +83,13 @@
     {
       "name": "Nomad",
       "handle": "nomad",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/nomad"
     },
     {
       "name": "Cobra Huey",
       "handle": "cobra-huey",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/cobra-huey"
     },
     {
@@ -101,19 +101,19 @@
     {
       "name": "A 10C Exterminator",
       "handle": "a-10c-exterminator",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
     },
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
@@ -125,49 +125,49 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
       "name": "Titan",
       "handle": "titan",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/titan"
     },
     {
       "name": "Usss Rescue Swimmer",
       "handle": "usss-rescue-swimmer",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
     },
     {
       "name": "Silent Eagle 1",
       "handle": "silent-eagle-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
     },
     {
       "name": "Kinetic Ii Ti Special Edition",
       "handle": "kinetic-ii-ti-special-edition",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
     },
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "Combined Arms",
       "handle": "combined-arms",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/combined-arms"
     }
   ]
