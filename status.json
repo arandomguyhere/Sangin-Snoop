@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T07:17:11.556074+00:00",
+  "last_updated": "2026-05-05T09:27:37.386180+00:00",
   "total_products": 30,
   "products": [
     {
@@ -41,13 +41,13 @@
     {
       "name": "Mnpd Swat 50Th Anniv",
       "handle": "mnpd-swat-50th-anniv",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
     },
     {
       "name": "Teams Nj Sp Unit Timepiece",
       "handle": "teams-nj-sp-unit-timepiece",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/teams-nj-sp-unit-timepiece"
     },
     {
