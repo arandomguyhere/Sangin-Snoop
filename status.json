@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-05-05T12:46:47.992986+00:00",
+  "last_updated": "2026-05-05T17:04:30.368060+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Caf",
+      "handle": "caf",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/caf"
+    },
     {
       "name": "Scottsdale Charros",
       "handle": "scottsdale-charros",
@@ -175,12 +181,6 @@
       "handle": "sams-planner",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
-    },
-    {
-      "name": "Combined Arms",
-      "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/combined-arms"
     }
   ]
 }
