@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T15:42:23.449108+00:00",
+  "last_updated": "2026-05-07T17:47:40.218135+00:00",
   "total_products": 30,
   "products": [
     {
@@ -43,12 +43,6 @@
       "handle": "3rd-laab",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/3rd-laab"
-    },
-    {
-      "name": "Mnpd Swat 50Th Anniv",
-      "handle": "mnpd-swat-50th-anniv",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
     },
     {
       "name": "Teams Nj Sp Unit Timepiece",
@@ -181,6 +175,12 @@
       "handle": "sams-planner",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
+    },
+    {
+      "name": "Combined Arms",
+      "handle": "combined-arms",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/combined-arms"
     }
   ]
 }
