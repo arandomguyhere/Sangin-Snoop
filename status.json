@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-05-08T13:45:22.770642+00:00",
+  "last_updated": "2026-05-08T15:21:39.501623+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Mnpd Swat 50Th Anniv",
+      "handle": "mnpd-swat-50th-anniv",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
+    },
     {
       "name": "Caf",
       "handle": "caf",
@@ -175,12 +181,6 @@
       "handle": "sams-planner",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sams-planner"
-    },
-    {
-      "name": "Combined Arms",
-      "handle": "combined-arms",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/combined-arms"
     }
   ]
 }
