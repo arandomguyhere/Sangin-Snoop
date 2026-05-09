@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T07:07:44.536682+00:00",
+  "last_updated": "2026-05-09T08:59:03.139914+00:00",
   "total_products": 30,
   "products": [
     {
@@ -23,7 +23,7 @@
     {
       "name": "Cirt Atlas",
       "handle": "cirt-atlas",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/cirt-atlas"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Professional Chronograph Plankowner",
       "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
     },
     {
