@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-05-12T11:54:33.836820+00:00",
+  "last_updated": "2026-05-12T14:23:24.618264+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Taclet S Tlei",
+      "handle": "taclet-s-tlei",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/taclet-s-tlei"
+    },
+    {
+      "name": "Cart",
+      "handle": "cart",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/cart"
+    },
     {
       "name": "Mnpd Swat 50Th Anniv",
       "handle": "mnpd-swat-50th-anniv",
@@ -169,18 +181,6 @@
       "handle": "kinetic-ii-ti-special-edition-owners-group",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
-    },
-    {
-      "name": "Professional Chronograph Plankowner",
-      "handle": "professional-chronograph-plankowner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/professional-chronograph-plankowner"
-    },
-    {
-      "name": "Sams Planner",
-      "handle": "sams-planner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/sams-planner"
     }
   ]
 }
