@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-05-12T14:23:24.618264+00:00",
+  "last_updated": "2026-05-12T16:37:21.703918+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Havoc",
+      "handle": "havoc",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/havoc"
+    },
     {
       "name": "Taclet S Tlei",
       "handle": "taclet-s-tlei",
@@ -175,12 +181,6 @@
       "handle": "kinetic-ii-ti-special-edition",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition Owners Group",
-      "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     }
   ]
 }
