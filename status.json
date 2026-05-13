@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T17:34:53.899747+00:00",
+  "last_updated": "2026-05-13T19:53:59.478457+00:00",
   "total_products": 30,
   "products": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Taclet S Tlei",
       "handle": "taclet-s-tlei",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/taclet-s-tlei"
     },
     {
@@ -71,13 +71,13 @@
     {
       "name": "Teams Nj Sp Unit Timepiece",
       "handle": "teams-nj-sp-unit-timepiece",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/teams-nj-sp-unit-timepiece"
     },
     {
       "name": "Blackhat Overlord",
       "handle": "blackhat-overlord",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/blackhat-overlord"
     },
     {
