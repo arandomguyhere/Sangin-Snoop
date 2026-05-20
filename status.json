@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T07:02:26.747552+00:00",
+  "last_updated": "2026-05-20T10:34:21.875363+00:00",
   "total_products": 30,
   "products": [
     {
@@ -137,13 +137,13 @@
     {
       "name": "Kinetic Ii Ti Special Edition 1",
       "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
     },
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
