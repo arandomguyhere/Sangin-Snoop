@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T00:06:53.210520+00:00",
+  "last_updated": "2026-05-21T04:52:54.142704+00:00",
   "total_products": 30,
   "products": [
     {
@@ -53,37 +53,37 @@
     {
       "name": "Dogs Of War",
       "handle": "dogs-of-war",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/dogs-of-war"
     },
     {
       "name": "Outlaw",
       "handle": "outlaw",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/outlaw"
     },
     {
       "name": "3Rd Laab",
       "handle": "3rd-laab",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/3rd-laab"
     },
     {
       "name": "Teams Nj Sp Unit Timepiece",
       "handle": "teams-nj-sp-unit-timepiece",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/teams-nj-sp-unit-timepiece"
     },
     {
       "name": "Blackhat Overlord",
       "handle": "blackhat-overlord",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/blackhat-overlord"
     },
     {
       "name": "Neptune Sas",
       "handle": "neptune-sas",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-sas"
     },
     {
