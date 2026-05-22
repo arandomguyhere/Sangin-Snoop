@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-05-22T20:54:49.790058+00:00",
+  "last_updated": "2026-05-22T22:07:19.757667+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Support Your Local Warlord",
+      "handle": "support-your-local-warlord",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/support-your-local-warlord"
+    },
     {
       "name": "Havoc",
       "handle": "havoc",
@@ -175,12 +181,6 @@
       "handle": "silent-eagle-1",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/silent-eagle-1"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition",
-      "handle": "kinetic-ii-ti-special-edition",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition"
     }
   ]
 }
