@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T15:30:54.418337+00:00",
+  "last_updated": "2026-05-22T17:26:14.247828+00:00",
   "total_products": 30,
   "products": [
     {
@@ -29,13 +29,13 @@
     {
       "name": "Caf",
       "handle": "caf",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/caf"
     },
     {
       "name": "Scottsdale Charros",
       "handle": "scottsdale-charros",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/scottsdale-charros"
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "Outlaw",
       "handle": "outlaw",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/outlaw"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Gbrs Group Kinetic Ii Ti V2",
       "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
     },
     {
