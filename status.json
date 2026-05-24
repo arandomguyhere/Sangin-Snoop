@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T15:03:19.286348+00:00",
+  "last_updated": "2026-05-24T16:33:00.514254+00:00",
   "total_products": 30,
   "products": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Scottsdale Charros",
       "handle": "scottsdale-charros",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/scottsdale-charros"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Les Singes Qui Sautent",
       "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     },
     {
