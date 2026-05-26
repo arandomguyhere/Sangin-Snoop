@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-05-26T17:26:38.078047+00:00",
+  "last_updated": "2026-05-26T19:33:55.853235+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Msp Es Team Neptune",
+      "handle": "msp-es-team-neptune",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/msp-es-team-neptune"
+    },
     {
       "name": "Support Your Local Warlord",
       "handle": "support-your-local-warlord",
@@ -155,7 +161,7 @@
     {
       "name": "Anglico Neptune 1",
       "handle": "anglico-neptune-1",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/anglico-neptune-1"
     },
     {
@@ -175,12 +181,6 @@
       "handle": "usss-rescue-swimmer",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
-    },
-    {
-      "name": "Silent Eagle 1",
-      "handle": "silent-eagle-1",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/silent-eagle-1"
     }
   ]
 }
