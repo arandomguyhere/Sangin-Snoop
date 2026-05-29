@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-05-29T16:15:00.080902+00:00",
+  "last_updated": "2026-05-29T19:08:57.708903+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "The Mothman",
+      "handle": "the-mothman",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/the-mothman"
+    },
+    {
+      "name": "White House Senior Staff",
+      "handle": "white-house-senior-staff",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/white-house-senior-staff"
+    },
     {
       "name": "Msp Es Team Neptune",
       "handle": "msp-es-team-neptune",
@@ -169,18 +181,6 @@
       "handle": "les-singes-qui-sautent",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
-    },
-    {
-      "name": "Titan",
-      "handle": "titan",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/titan"
-    },
-    {
-      "name": "Usss Rescue Swimmer",
-      "handle": "usss-rescue-swimmer",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/usss-rescue-swimmer"
     }
   ]
 }
