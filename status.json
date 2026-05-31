@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-05-31T13:48:18.039096+00:00",
+  "last_updated": "2026-05-31T15:17:26.628396+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Spd Watch Club",
+      "handle": "spd-watch-club",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/spd-watch-club"
+    },
+    {
+      "name": "Panther Driver",
+      "handle": "panther-driver",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/panther-driver"
+    },
     {
       "name": "The Mothman",
       "handle": "the-mothman",
@@ -169,18 +181,6 @@
       "handle": "kinetic-ii-expedition",
       "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
-    },
-    {
-      "name": "Anglico Neptune 1",
-      "handle": "anglico-neptune-1",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/anglico-neptune-1"
-    },
-    {
-      "name": "Les Singes Qui Sautent",
-      "handle": "les-singes-qui-sautent",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/les-singes-qui-sautent"
     }
   ]
 }
