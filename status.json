@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-06-01T15:41:23.165198+00:00",
+  "last_updated": "2026-06-01T20:16:37.605121+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Spiritus Systems Titan",
+      "handle": "spiritus-systems-titan",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/spiritus-systems-titan"
+    },
     {
       "name": "Neptune Owners Group",
       "handle": "neptune-owners-group",
@@ -175,12 +181,6 @@
       "handle": "longhorn-mba",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/longhorn-mba"
-    },
-    {
-      "name": "A 10C Exterminator",
-      "handle": "a-10c-exterminator",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/a-10c-exterminator"
     }
   ]
 }
