@@ -1,7 +1,25 @@
 {
-  "last_updated": "2026-06-01T09:29:02.320801+00:00",
+  "last_updated": "2026-06-01T15:41:23.165198+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Neptune Owners Group",
+      "handle": "neptune-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/neptune-owners-group"
+    },
+    {
+      "name": "Kinetic Ii Ti Owners Group",
+      "handle": "kinetic-ii-ti-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
+    },
+    {
+      "name": "Hydra Ii Sog",
+      "handle": "hydra-ii-sog",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/hydra-ii-sog"
+    },
     {
       "name": "Spd Watch Club",
       "handle": "spd-watch-club",
@@ -163,24 +181,6 @@
       "handle": "a-10c-exterminator",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/a-10c-exterminator"
-    },
-    {
-      "name": "Gbrs Group Kinetic Ii Ti V2",
-      "handle": "gbrs-group-kinetic-ii-ti-v2",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/gbrs-group-kinetic-ii-ti-v2"
-    },
-    {
-      "name": "Kinetic Ii Ti Special Edition 1",
-      "handle": "kinetic-ii-ti-special-edition-1",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-1"
-    },
-    {
-      "name": "Kinetic Ii Expedition",
-      "handle": "kinetic-ii-expedition",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     }
   ]
 }
