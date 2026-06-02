@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-06-02T18:09:55.984419+00:00",
+  "last_updated": "2026-06-02T21:31:33.611751+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Taclet Pacific",
+      "handle": "taclet-pacific",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/taclet-pacific"
+    },
+    {
+      "name": "17Seriesco",
+      "handle": "17seriesco",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/17seriesco"
+    },
     {
       "name": "Spiritus Systems Titan",
       "handle": "spiritus-systems-titan",
@@ -169,18 +181,6 @@
       "handle": "nomad",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/nomad"
-    },
-    {
-      "name": "Cobra Huey",
-      "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cobra-huey"
-    },
-    {
-      "name": "Longhorn Mba",
-      "handle": "longhorn-mba",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/longhorn-mba"
     }
   ]
 }
