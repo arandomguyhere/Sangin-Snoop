@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-06-03T18:08:10.370908+00:00",
+  "last_updated": "2026-06-03T21:35:49.791368+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Taclet Pacific",
       "handle": "taclet-pacific",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/taclet-pacific"
     },
     {
@@ -71,13 +71,13 @@
     {
       "name": "Support Your Local Warlord",
       "handle": "support-your-local-warlord",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/support-your-local-warlord"
     },
     {
       "name": "Havoc",
       "handle": "havoc",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/havoc"
     },
     {
