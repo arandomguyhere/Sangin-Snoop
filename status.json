@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T08:32:53.169063+00:00",
+  "last_updated": "2026-06-06T10:53:29.471108+00:00",
   "total_products": 30,
   "products": [
     {
@@ -23,7 +23,7 @@
     {
       "name": "Kinetic Ii Ti Owners Group",
       "handle": "kinetic-ii-ti-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
     },
     {
@@ -65,13 +65,13 @@
     {
       "name": "Support Your Local Warlord",
       "handle": "support-your-local-warlord",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/support-your-local-warlord"
     },
     {
       "name": "Havoc",
       "handle": "havoc",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/havoc"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "Outlaw",
       "handle": "outlaw",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/outlaw"
     },
     {
