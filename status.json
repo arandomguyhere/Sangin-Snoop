@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-06-07T13:50:32.952083+00:00",
+  "last_updated": "2026-06-07T15:24:10.982129+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Taclet Pacific",
       "handle": "taclet-pacific",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/taclet-pacific"
     },
     {
@@ -23,19 +23,19 @@
     {
       "name": "Kinetic Ii Ti Owners Group",
       "handle": "kinetic-ii-ti-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
     },
     {
       "name": "Hydra Ii Sog",
       "handle": "hydra-ii-sog",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/hydra-ii-sog"
     },
     {
       "name": "Spd Watch Club",
       "handle": "spd-watch-club",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/spd-watch-club"
     },
     {
