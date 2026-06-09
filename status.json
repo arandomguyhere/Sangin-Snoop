@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-06-09T22:24:53.139221+00:00",
+  "last_updated": "2026-06-09T23:51:48.331621+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "The Randy",
+      "handle": "the-randy",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/the-randy"
+    },
+    {
+      "name": "Skyraider Ii Initial Cadre",
+      "handle": "skyraider-ii-initial-cadre",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/skyraider-ii-initial-cadre"
+    },
     {
       "name": "Taclet Pacific",
       "handle": "taclet-pacific",
@@ -169,18 +181,6 @@
       "handle": "icarus",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/icarus"
-    },
-    {
-      "name": "Nomad",
-      "handle": "nomad",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/nomad"
-    },
-    {
-      "name": "Cobra Huey",
-      "handle": "cobra-huey",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cobra-huey"
     }
   ]
 }
