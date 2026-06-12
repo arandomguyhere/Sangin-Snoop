@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-06-12T19:29:53.744643+00:00",
+  "last_updated": "2026-06-12T21:16:39.017465+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Clackamas Swat",
+      "handle": "clackamas-swat",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/clackamas-swat"
+    },
     {
       "name": "C Sqdn Custom",
       "handle": "c-sqdn-custom",
@@ -175,12 +181,6 @@
       "handle": "n349ca",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/n349ca"
-    },
-    {
-      "name": "Drifter",
-      "handle": "drifter",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/drifter"
     }
   ]
 }
