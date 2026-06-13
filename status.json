@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T16:55:49.863001+00:00",
+  "last_updated": "2026-06-13T18:07:05.494900+00:00",
   "total_products": 30,
   "products": [
     {
@@ -155,7 +155,7 @@
     {
       "name": "3Rd Laab",
       "handle": "3rd-laab",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/3rd-laab"
     },
     {
