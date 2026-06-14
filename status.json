@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T22:36:47.400439+00:00",
+  "last_updated": "2026-06-14T00:06:00.036578+00:00",
   "total_products": 30,
   "products": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Neptune Owners Group",
       "handle": "neptune-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-owners-group"
     },
     {
@@ -83,7 +83,7 @@
     {
       "name": "Msp Es Team Neptune",
       "handle": "msp-es-team-neptune",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/msp-es-team-neptune"
     },
     {
