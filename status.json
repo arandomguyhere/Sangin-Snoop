@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-06-15T18:24:54.499055+00:00",
+  "last_updated": "2026-06-15T21:31:49.852171+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Overlord Owners Group",
+      "handle": "overlord-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/overlord-owners-group"
+    },
+    {
+      "name": "Titan Owners Group",
+      "handle": "titan-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/titan-owners-group"
+    },
     {
       "name": "Clackamas Swat",
       "handle": "clackamas-swat",
@@ -169,18 +181,6 @@
       "handle": "blackhat-overlord",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/blackhat-overlord"
-    },
-    {
-      "name": "Neptune Sas",
-      "handle": "neptune-sas",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/neptune-sas"
-    },
-    {
-      "name": "N349Ca",
-      "handle": "n349ca",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/n349ca"
     }
   ]
 }
