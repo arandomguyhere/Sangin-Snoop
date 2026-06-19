@@ -1,186 +1,84 @@
 {
-  "last_updated": "2026-06-19T15:48:24.454476+00:00",
-  "total_products": 30,
+  "last_updated": "2026-06-19T17:56:06.383053+00:00",
+  "total_products": 13,
   "products": [
     {
-      "name": "Bulls",
-      "handle": "bulls",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/bulls"
+      "name": "Atlas Ii",
+      "handle": "atlas-ii",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/atlas-ii"
     },
     {
-      "name": "Pat4",
-      "handle": "pat4",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/pat4"
+      "name": "Overlord",
+      "handle": "overlord",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/overlord"
     },
     {
-      "name": "The Centurion",
-      "handle": "the-centurion",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/the-centurion"
+      "name": "Professional",
+      "handle": "professional",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/professional"
     },
     {
-      "name": "Overlord Owners Group",
-      "handle": "overlord-owners-group",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/overlord-owners-group"
+      "name": "Neptune",
+      "handle": "neptune",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/neptune"
     },
     {
-      "name": "Titan Owners Group",
-      "handle": "titan-owners-group",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/titan-owners-group"
+      "name": "Merlin",
+      "handle": "merlin",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/merlin"
     },
     {
-      "name": "Clackamas Swat",
-      "handle": "clackamas-swat",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/clackamas-swat"
+      "name": "Dark Merlin",
+      "handle": "dark-merlin",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/dark-merlin"
     },
     {
-      "name": "C Sqdn Custom",
-      "handle": "c-sqdn-custom",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/c-sqdn-custom"
+      "name": "Kingmaker",
+      "handle": "kingmaker",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/kingmaker"
     },
     {
-      "name": "The Randy",
-      "handle": "the-randy",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/the-randy"
+      "name": "Kinetic Ii",
+      "handle": "kinetic-ii",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/kinetic-ii"
     },
     {
-      "name": "Skyraider Ii Initial Cadre",
-      "handle": "skyraider-ii-initial-cadre",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/skyraider-ii-initial-cadre"
+      "name": "Kinetic Ii Ti",
+      "handle": "kinetic-ii-ti",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti"
     },
     {
-      "name": "Taclet Pacific",
-      "handle": "taclet-pacific",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/taclet-pacific"
+      "name": "Hydra",
+      "handle": "hydra",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/hydra"
     },
     {
-      "name": "Spiritus Systems Titan",
-      "handle": "spiritus-systems-titan",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/spiritus-systems-titan"
+      "name": "Overlord Special Edition",
+      "handle": "overlord-special-edition",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/overlord-special-edition"
     },
     {
-      "name": "Neptune Owners Group",
-      "handle": "neptune-owners-group",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/neptune-owners-group"
+      "name": "Kinetic Gypsy",
+      "handle": "kinetic-gypsy",
+      "status": "unreachable (HTTP 503)",
+      "url": "https://sangininstruments.com/products/kinetic-gypsy"
     },
     {
-      "name": "Kinetic Ii Ti Owners Group",
-      "handle": "kinetic-ii-ti-owners-group",
+      "name": "Marauder",
+      "handle": "marauder",
       "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
-    },
-    {
-      "name": "Hydra Ii Sog",
-      "handle": "hydra-ii-sog",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/hydra-ii-sog"
-    },
-    {
-      "name": "Spd Watch Club",
-      "handle": "spd-watch-club",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/spd-watch-club"
-    },
-    {
-      "name": "Panther Driver",
-      "handle": "panther-driver",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/panther-driver"
-    },
-    {
-      "name": "The Mothman",
-      "handle": "the-mothman",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/the-mothman"
-    },
-    {
-      "name": "White House Senior Staff",
-      "handle": "white-house-senior-staff",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/white-house-senior-staff"
-    },
-    {
-      "name": "Msp Es Team Neptune",
-      "handle": "msp-es-team-neptune",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/msp-es-team-neptune"
-    },
-    {
-      "name": "Support Your Local Warlord",
-      "handle": "support-your-local-warlord",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/support-your-local-warlord"
-    },
-    {
-      "name": "Havoc",
-      "handle": "havoc",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/havoc"
-    },
-    {
-      "name": "Taclet S Tlei",
-      "handle": "taclet-s-tlei",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/taclet-s-tlei"
-    },
-    {
-      "name": "Cart",
-      "handle": "cart",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cart"
-    },
-    {
-      "name": "Mnpd Swat 50Th Anniv",
-      "handle": "mnpd-swat-50th-anniv",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
-    },
-    {
-      "name": "Caf",
-      "handle": "caf",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/caf"
-    },
-    {
-      "name": "Scottsdale Charros",
-      "handle": "scottsdale-charros",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/scottsdale-charros"
-    },
-    {
-      "name": "Cirt Atlas",
-      "handle": "cirt-atlas",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cirt-atlas"
-    },
-    {
-      "name": "Psp",
-      "handle": "psp",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/psp"
-    },
-    {
-      "name": "Dogs Of War",
-      "handle": "dogs-of-war",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/dogs-of-war"
-    },
-    {
-      "name": "Outlaw",
-      "handle": "outlaw",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/outlaw"
+      "url": "https://sangininstruments.com/products/marauder"
     }
   ]
 }
