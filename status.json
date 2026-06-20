@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T22:05:42.080211+00:00",
+  "last_updated": "2026-06-20T23:45:13.437495+00:00",
   "total_products": 30,
   "products": [
     {
@@ -89,31 +89,31 @@
     {
       "name": "Spd Watch Club",
       "handle": "spd-watch-club",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/spd-watch-club"
     },
     {
       "name": "Panther Driver",
       "handle": "panther-driver",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/panther-driver"
     },
     {
       "name": "The Mothman",
       "handle": "the-mothman",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/the-mothman"
     },
     {
       "name": "White House Senior Staff",
       "handle": "white-house-senior-staff",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/white-house-senior-staff"
     },
     {
       "name": "Msp Es Team Neptune",
       "handle": "msp-es-team-neptune",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/msp-es-team-neptune"
     },
     {
