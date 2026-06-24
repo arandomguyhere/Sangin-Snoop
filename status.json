@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-06-24T17:27:34.168573+00:00",
+  "last_updated": "2026-06-24T19:12:11.553678+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Gcpd Swat",
+      "handle": "gcpd-swat",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/gcpd-swat"
+    },
     {
       "name": "Bulls",
       "handle": "bulls",
@@ -175,12 +181,6 @@
       "handle": "dogs-of-war",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/dogs-of-war"
-    },
-    {
-      "name": "Outlaw",
-      "handle": "outlaw",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/outlaw"
     }
   ]
 }
