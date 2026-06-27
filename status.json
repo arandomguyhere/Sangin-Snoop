@@ -1,7 +1,31 @@
 {
-  "last_updated": "2026-06-27T18:02:32.348610+00:00",
+  "last_updated": "2026-06-27T19:53:09.796739+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Paratrooper",
+      "handle": "paratrooper",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/paratrooper"
+    },
+    {
+      "name": "Comanche",
+      "handle": "comanche",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/comanche"
+    },
+    {
+      "name": "Sost",
+      "handle": "sost",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/sost"
+    },
+    {
+      "name": "Ison",
+      "handle": "ison",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/ison"
+    },
     {
       "name": "Gcpd Swat",
       "handle": "gcpd-swat",
@@ -157,30 +181,6 @@
       "handle": "caf",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/caf"
-    },
-    {
-      "name": "Scottsdale Charros",
-      "handle": "scottsdale-charros",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/scottsdale-charros"
-    },
-    {
-      "name": "Cirt Atlas",
-      "handle": "cirt-atlas",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cirt-atlas"
-    },
-    {
-      "name": "Psp",
-      "handle": "psp",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/psp"
-    },
-    {
-      "name": "Dogs Of War",
-      "handle": "dogs-of-war",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/dogs-of-war"
     }
   ]
 }
