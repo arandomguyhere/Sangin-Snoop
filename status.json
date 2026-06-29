@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T15:55:36.349975+00:00",
+  "last_updated": "2026-06-29T18:08:59.080193+00:00",
   "total_products": 30,
   "products": [
     {
@@ -161,25 +161,25 @@
     {
       "name": "Taclet S Tlei",
       "handle": "taclet-s-tlei",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 500)",
       "url": "https://sangininstruments.com/products/taclet-s-tlei"
     },
     {
       "name": "Cart",
       "handle": "cart",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/cart"
     },
     {
       "name": "Mnpd Swat 50Th Anniv",
       "handle": "mnpd-swat-50th-anniv",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/mnpd-swat-50th-anniv"
     },
     {
       "name": "Caf",
       "handle": "caf",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/caf"
     }
   ]
