@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T18:57:59.886411+00:00",
+  "last_updated": "2026-07-13T20:18:37.227071+00:00",
   "total_products": 30,
   "products": [
     {
@@ -53,7 +53,7 @@
     {
       "name": "Bulls",
       "handle": "bulls",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/bulls"
     },
     {
