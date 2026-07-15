@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-07-15T20:33:16.469300+00:00",
+  "last_updated": "2026-07-15T21:59:39.159386+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Silverco",
+      "handle": "silverco",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/silverco"
+    },
     {
       "name": "North Hills Srt",
       "handle": "north-hills-srt",
@@ -175,12 +181,6 @@
       "handle": "taclet-s-tlei",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/taclet-s-tlei"
-    },
-    {
-      "name": "Cart",
-      "handle": "cart",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/cart"
     }
   ]
 }
