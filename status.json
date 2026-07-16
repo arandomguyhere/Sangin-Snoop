@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T16:48:53.335924+00:00",
+  "last_updated": "2026-07-16T18:06:16.013055+00:00",
   "total_products": 30,
   "products": [
     {
@@ -43,12 +43,6 @@
       "handle": "sost",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/sost"
-    },
-    {
-      "name": "Ison",
-      "handle": "ison",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/ison"
     },
     {
       "name": "Gcpd Swat",
@@ -181,6 +175,12 @@
       "handle": "taclet-s-tlei",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/taclet-s-tlei"
+    },
+    {
+      "name": "Cart",
+      "handle": "cart",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/cart"
     }
   ]
 }
