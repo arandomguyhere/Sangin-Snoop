@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-07-17T19:05:36.786368+00:00",
+  "last_updated": "2026-07-17T20:27:32.243058+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Titan Owners Group",
+      "handle": "titan-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/titan-owners-group"
+    },
+    {
+      "name": "Neptune Owners Group",
+      "handle": "neptune-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/neptune-owners-group"
+    },
+    {
+      "name": "Kinetic Ii Ti Owners Group",
+      "handle": "kinetic-ii-ti-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
+    },
+    {
+      "name": "Hydra Ii Sog",
+      "handle": "hydra-ii-sog",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/hydra-ii-sog"
+    },
+    {
+      "name": "Overlord Owners Group",
+      "handle": "overlord-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/overlord-owners-group"
+    },
+    {
+      "name": "Kinetic Ii Ti Special Edition Owners Group",
+      "handle": "kinetic-ii-ti-special-edition-owners-group",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
+    },
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
@@ -145,42 +181,6 @@
       "handle": "the-marauder-shirt",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/the-marauder-shirt"
-    },
-    {
-      "name": "Sangin Bars",
-      "handle": "sangin-bars",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/sangin-bars"
-    },
-    {
-      "name": "Sangin Team Patch",
-      "handle": "sangin-team-patch",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/sangin-team-patch"
-    },
-    {
-      "name": "Long Sleeve",
-      "handle": "long-sleeve",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/long-sleeve"
-    },
-    {
-      "name": "Sangin Frogskin Long Sleeve Shirt",
-      "handle": "sangin-frogskin-long-sleeve-shirt",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/sangin-frogskin-long-sleeve-shirt"
-    },
-    {
-      "name": "Shores To The Summits Long Sleeve Shirt",
-      "handle": "shores-to-the-summits-long-sleeve-shirt",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/shores-to-the-summits-long-sleeve-shirt"
-    },
-    {
-      "name": "Copy Of Hydra",
-      "handle": "copy-of-hydra",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/copy-of-hydra"
     }
   ]
 }
