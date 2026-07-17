@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T01:00:59.178404+00:00",
+  "last_updated": "2026-07-17T04:16:21.502195+00:00",
   "total_products": 30,
   "products": [
     {
@@ -89,7 +89,7 @@
     {
       "name": "Navigator Compass Owners Group",
       "handle": "navigator-compass-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/navigator-compass-owners-group"
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Courier Watch Roll Plankowner",
       "handle": "courier-watch-roll-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/courier-watch-roll-plankowner"
     },
     {
