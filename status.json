@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T11:02:48.859428+00:00",
+  "last_updated": "2026-07-18T12:12:15.916382+00:00",
   "total_products": 30,
   "products": [
     {
@@ -53,7 +53,7 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
@@ -179,7 +179,7 @@
     {
       "name": "The Marauder Shirt",
       "handle": "the-marauder-shirt",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/the-marauder-shirt"
     }
   ]
