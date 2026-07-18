@@ -1,119 +1,119 @@
 {
-  "last_updated": "2026-07-18T06:04:51.754321+00:00",
-  "total_products": 64,
+  "last_updated": "2026-07-18T08:19:08.065491+00:00",
+  "total_products": 30,
   "products": [
     {
       "name": "Titan Owners Group",
       "handle": "titan-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/titan-owners-group"
     },
     {
       "name": "Neptune Owners Group",
       "handle": "neptune-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/neptune-owners-group"
     },
     {
       "name": "Kinetic Ii Ti Owners Group",
       "handle": "kinetic-ii-ti-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-owners-group"
     },
     {
       "name": "Hydra Ii Sog",
       "handle": "hydra-ii-sog",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/hydra-ii-sog"
     },
     {
       "name": "Overlord Owners Group",
       "handle": "overlord-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/overlord-owners-group"
     },
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
       "name": "Kinetic Ii Expedition",
       "handle": "kinetic-ii-expedition",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-expedition"
     },
     {
       "name": "Titan",
       "handle": "titan",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/titan"
     },
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
       "name": "Hydra",
       "handle": "hydra",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/hydra"
     },
     {
       "name": "Latitude",
       "handle": "latitude",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/latitude"
     },
     {
       "name": "Defuser Caseback",
       "handle": "defuser-caseback",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/defuser-caseback"
     },
     {
       "name": "Halyard Strap",
       "handle": "halyard-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/halyard-strap"
     },
     {
       "name": "Sangin Standard Rubber Strap",
       "handle": "sangin-standard-rubber-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/sangin-standard-rubber-strap"
     },
     {
       "name": "The Expedition Strap",
       "handle": "the-expedition-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/the-expedition-strap"
     },
     {
       "name": "Genuine Leather Watch Strap",
       "handle": "genuine-leather-watch-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/genuine-leather-watch-strap"
     },
     {
       "name": "Kingmaker",
       "handle": "kingmaker",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kingmaker"
     },
     {
       "name": "Diplomat Bracelet",
       "handle": "diplomat-bracelet",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/diplomat-bracelet"
     },
     {
@@ -131,260 +131,56 @@
     {
       "name": "Sangin Team Trucker Hat",
       "handle": "sangin-team-trucker-hat",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/sangin-team-trucker-hat"
     },
     {
       "name": "Art Vectorization",
       "handle": "art-vectorization",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/art-vectorization"
     },
     {
       "name": "Courier Watch Roll Plankowner",
       "handle": "courier-watch-roll-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/courier-watch-roll-plankowner"
     },
     {
       "name": "Courier Watch Roll",
       "handle": "courier-watch-roll",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/courier-watch-roll"
     },
     {
       "name": "Kinetic Ii Ti",
       "handle": "kinetic-ii-ti",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti"
     },
     {
       "name": "Watch Roll Owners Group",
       "handle": "watch-roll-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-owners-group"
     },
     {
       "name": "Navigator Compass Plankowner",
       "handle": "navigator-compass-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/navigator-compass-plankowner"
     },
     {
       "name": "Watch Roll Plankowner",
       "handle": "watch-roll-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-plankowner"
     },
     {
       "name": "The Marauder Shirt",
       "handle": "the-marauder-shirt",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/the-marauder-shirt"
-    },
-    {
-      "name": "Sangin Bars",
-      "handle": "sangin-bars",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-bars"
-    },
-    {
-      "name": "Sangin Team Patch",
-      "handle": "sangin-team-patch",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-team-patch"
-    },
-    {
-      "name": "Long Sleeve",
-      "handle": "long-sleeve",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/long-sleeve"
-    },
-    {
-      "name": "Sangin Frogskin Long Sleeve Shirt",
-      "handle": "sangin-frogskin-long-sleeve-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-frogskin-long-sleeve-shirt"
-    },
-    {
-      "name": "Shores To The Summits Long Sleeve Shirt",
-      "handle": "shores-to-the-summits-long-sleeve-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/shores-to-the-summits-long-sleeve-shirt"
-    },
-    {
-      "name": "Copy Of Hydra",
-      "handle": "copy-of-hydra",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/copy-of-hydra"
-    },
-    {
-      "name": "Custom Engraving",
-      "handle": "custom-engraving",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/custom-engraving"
-    },
-    {
-      "name": "Oth Watch Strap",
-      "handle": "oth-watch-strap",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/oth-watch-strap"
-    },
-    {
-      "name": "Horween Leather Watch Strap 1",
-      "handle": "horween-leather-watch-strap-1",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/horween-leather-watch-strap-1"
-    },
-    {
-      "name": "Custom Test",
-      "handle": "custom-test",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/custom-test"
-    },
-    {
-      "name": "Sangin Ti2 Pen",
-      "handle": "sangin-ti2-pen",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-ti2-pen"
-    },
-    {
-      "name": "Humble Beginnings Shirt",
-      "handle": "humble-beginnings-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/humble-beginnings-shirt"
-    },
-    {
-      "name": "Seas To The Summits Shirt",
-      "handle": "seas-to-the-summits-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/seas-to-the-summits-shirt"
-    },
-    {
-      "name": "Sangin Lighthouse Shirt",
-      "handle": "sangin-lighthouse-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-lighthouse-shirt"
-    },
-    {
-      "name": "Dark Merlin",
-      "handle": "dark-merlin",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/dark-merlin"
-    },
-    {
-      "name": "Sangin Spring Bar Tool",
-      "handle": "sangin-spring-bar-tool",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-spring-bar-tool"
-    },
-    {
-      "name": "Admiral Plankowner",
-      "handle": "admiral-plankowner",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/admiral-plankowner"
-    },
-    {
-      "name": "Admiral",
-      "handle": "admiral",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/admiral"
-    },
-    {
-      "name": "Sangin Mountains Shirt",
-      "handle": "sangin-mountains-shirt",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/sangin-mountains-shirt"
-    },
-    {
-      "name": "Sangin Frogskin Shirt",
-      "handle": "sangin-frogskin-shirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/sangin-frogskin-shirt"
-    },
-    {
-      "name": "Team Hat",
-      "handle": "team-hat",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/team-hat"
-    },
-    {
-      "name": "Anonymousshirt",
-      "handle": "anonymousshirt",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/anonymousshirt"
-    },
-    {
-      "name": "Kinetic Ii",
-      "handle": "kinetic-ii",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/kinetic-ii"
-    },
-    {
-      "name": "Nco Strap",
-      "handle": "nco-strap",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/nco-strap"
-    },
-    {
-      "name": "Test Product",
-      "handle": "test-product",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/test-product"
-    },
-    {
-      "name": "Reship Product",
-      "handle": "reship-product",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/reship-product"
-    },
-    {
-      "name": "Para Overlord",
-      "handle": "para-overlord",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/para-overlord"
-    },
-    {
-      "name": "Overlord Field Watch",
-      "handle": "overlord-field-watch",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/overlord-field-watch"
-    },
-    {
-      "name": "Replacement Strap",
-      "handle": "replacement-strap",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/replacement-strap"
-    },
-    {
-      "name": "Rubber Decon Strap",
-      "handle": "rubber-decon-strap",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/rubber-decon-strap"
-    },
-    {
-      "name": "Watch Roll",
-      "handle": "watch-roll",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/watch-roll"
-    },
-    {
-      "name": "Professional",
-      "handle": "professional",
-      "status": "sold out",
-      "url": "https://sangininstruments.com/products/professional"
-    },
-    {
-      "name": "Navigator Compass",
-      "handle": "navigator-compass",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/navigator-compass"
-    },
-    {
-      "name": "Neptune",
-      "handle": "neptune",
-      "status": "unreachable (HTTP 503)",
-      "url": "https://sangininstruments.com/products/neptune"
     }
   ]
 }
