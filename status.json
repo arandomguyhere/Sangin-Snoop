@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-18T12:12:15.916382+00:00",
+  "last_updated": "2026-07-18T13:56:55.814760+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Titan Owners Group",
       "handle": "titan-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/titan-owners-group"
     },
     {
@@ -107,7 +107,7 @@
     {
       "name": "Kingmaker",
       "handle": "kingmaker",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kingmaker"
     },
     {
