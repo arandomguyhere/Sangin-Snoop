@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T11:57:25.006346+00:00",
+  "last_updated": "2026-07-19T13:21:02.052387+00:00",
   "total_products": 30,
   "products": [
     {
@@ -89,31 +89,31 @@
     {
       "name": "Sangin Standard Rubber Strap",
       "handle": "sangin-standard-rubber-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/sangin-standard-rubber-strap"
     },
     {
       "name": "The Expedition Strap",
       "handle": "the-expedition-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/the-expedition-strap"
     },
     {
       "name": "Genuine Leather Watch Strap",
       "handle": "genuine-leather-watch-strap",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/genuine-leather-watch-strap"
     },
     {
       "name": "Kingmaker",
       "handle": "kingmaker",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kingmaker"
     },
     {
       "name": "Diplomat Bracelet",
       "handle": "diplomat-bracelet",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/diplomat-bracelet"
     },
     {
@@ -131,7 +131,7 @@
     {
       "name": "Sangin Team Trucker Hat",
       "handle": "sangin-team-trucker-hat",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/sangin-team-trucker-hat"
     },
     {
@@ -143,19 +143,19 @@
     {
       "name": "Courier Watch Roll Plankowner",
       "handle": "courier-watch-roll-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/courier-watch-roll-plankowner"
     },
     {
       "name": "Courier Watch Roll",
       "handle": "courier-watch-roll",
-      "status": "unreachable (HTTP 502)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/courier-watch-roll"
     },
     {
       "name": "Kinetic Ii Ti",
       "handle": "kinetic-ii-ti",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti"
     },
     {
@@ -167,13 +167,13 @@
     {
       "name": "Navigator Compass Plankowner",
       "handle": "navigator-compass-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/navigator-compass-plankowner"
     },
     {
       "name": "Watch Roll Plankowner",
       "handle": "watch-roll-plankowner",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-plankowner"
     },
     {
