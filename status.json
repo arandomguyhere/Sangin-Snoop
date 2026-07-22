@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T07:09:50.199452+00:00",
+  "last_updated": "2026-07-22T09:58:28.040007+00:00",
   "total_products": 30,
   "products": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Overlord Owners Group",
       "handle": "overlord-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/overlord-owners-group"
     },
     {
@@ -53,13 +53,13 @@
     {
       "name": "Atlas",
       "handle": "atlas",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/atlas"
     },
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "Navigator Compass Owners Group",
       "handle": "navigator-compass-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/navigator-compass-owners-group"
     },
     {
