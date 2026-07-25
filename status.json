@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T03:48:36.604992+00:00",
+  "last_updated": "2026-07-25T06:17:12.647223+00:00",
   "total_products": 30,
   "products": [
     {
@@ -29,7 +29,7 @@
     {
       "name": "Overlord Owners Group",
       "handle": "overlord-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/overlord-owners-group"
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Titan",
       "handle": "titan",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/titan"
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "Professional Chronograph",
       "handle": "professional-chronograph",
-      "status": "unreachable (HTTP 503)",
+      "status": "sold out",
       "url": "https://sangininstruments.com/products/professional-chronograph"
     },
     {
