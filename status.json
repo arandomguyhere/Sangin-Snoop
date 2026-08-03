@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T18:16:31.707187+00:00",
+  "last_updated": "2026-08-03T20:11:04.394733+00:00",
   "total_products": 30,
   "products": [
     {
@@ -137,13 +137,13 @@
     {
       "name": "Art Vectorization",
       "handle": "art-vectorization",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/art-vectorization"
     },
     {
       "name": "Courier Watch Roll Plankowner",
       "handle": "courier-watch-roll-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/courier-watch-roll-plankowner"
     },
     {
@@ -155,7 +155,7 @@
     {
       "name": "Kinetic Ii Ti",
       "handle": "kinetic-ii-ti",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti"
     },
     {
