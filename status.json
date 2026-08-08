@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T01:58:37.039963+00:00",
+  "last_updated": "2026-08-08T03:38:20.782867+00:00",
   "total_products": 30,
   "products": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Neptune Owners Group",
       "handle": "neptune-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/neptune-owners-group"
     },
     {
@@ -173,7 +173,7 @@
     {
       "name": "Watch Roll Plankowner",
       "handle": "watch-roll-plankowner",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/watch-roll-plankowner"
     },
     {
