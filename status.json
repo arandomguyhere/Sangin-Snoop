@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T19:54:59.186752+00:00",
+  "last_updated": "2026-08-10T20:40:51.220527+00:00",
   "total_products": 30,
   "products": [
     {
@@ -131,7 +131,7 @@
     {
       "name": "Sangin Team Trucker Hat",
       "handle": "sangin-team-trucker-hat",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/sangin-team-trucker-hat"
     },
     {
@@ -161,7 +161,7 @@
     {
       "name": "Watch Roll Owners Group",
       "handle": "watch-roll-owners-group",
-      "status": "unknown \u2013 check page manually",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/watch-roll-owners-group"
     },
     {
