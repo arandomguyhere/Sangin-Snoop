@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-08-21T14:33:37.164929+00:00",
+  "last_updated": "2026-08-21T15:31:28.873724+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Overlord Zas Otan Strap",
+      "handle": "overlord-zas-otan-strap",
+      "status": "sold out",
+      "url": "https://sangininstruments.com/products/overlord-zas-otan-strap"
+    },
     {
       "name": "Titan Owners Group",
       "handle": "titan-owners-group",
@@ -175,12 +181,6 @@
       "handle": "watch-roll-plankowner",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-plankowner"
-    },
-    {
-      "name": "The Marauder Shirt",
-      "handle": "the-marauder-shirt",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/the-marauder-shirt"
     }
   ]
 }
