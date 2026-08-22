@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T19:28:43.209133+00:00",
+  "last_updated": "2026-08-22T19:48:03.173003+00:00",
   "total_products": 30,
   "products": [
     {
@@ -35,13 +35,13 @@
     {
       "name": "Overlord Owners Group",
       "handle": "overlord-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/overlord-owners-group"
     },
     {
       "name": "Kinetic Ii Ti Special Edition Owners Group",
       "handle": "kinetic-ii-ti-special-edition-owners-group",
-      "status": "unreachable (HTTP 503)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/kinetic-ii-ti-special-edition-owners-group"
     },
     {
