@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T15:38:26.357586+00:00",
+  "last_updated": "2026-09-06T18:02:04.219541+00:00",
   "total_products": 30,
   "products": [
     {
@@ -167,7 +167,7 @@
     {
       "name": "Watch Roll Owners Group",
       "handle": "watch-roll-owners-group",
-      "status": "error: HTTPSConnectionPool(host='sangininstruments.com', port=443): Read timed out. (read timeout=20)",
+      "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-owners-group"
     },
     {
