@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-09-22T11:57:07.036990+00:00",
+  "last_updated": "2026-09-22T16:27:36.366354+00:00",
   "total_products": 30,
   "products": [
+    {
+      "name": "Southwest",
+      "handle": "southwest",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/southwest"
+    },
+    {
+      "name": "82Nd Signal Bn",
+      "handle": "82nd-signal-bn",
+      "status": "unknown \u2013 check page manually",
+      "url": "https://sangininstruments.com/products/82nd-signal-bn"
+    },
     {
       "name": "Overlord Zas Otan Strap",
       "handle": "overlord-zas-otan-strap",
@@ -169,18 +181,6 @@
       "handle": "watch-roll-owners-group",
       "status": "unknown \u2013 check page manually",
       "url": "https://sangininstruments.com/products/watch-roll-owners-group"
-    },
-    {
-      "name": "Navigator Compass Plankowner",
-      "handle": "navigator-compass-plankowner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/navigator-compass-plankowner"
-    },
-    {
-      "name": "Watch Roll Plankowner",
-      "handle": "watch-roll-plankowner",
-      "status": "unknown \u2013 check page manually",
-      "url": "https://sangininstruments.com/products/watch-roll-plankowner"
     }
   ]
 }
