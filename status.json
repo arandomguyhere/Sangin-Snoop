@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-06T07:12:14.826293+00:00",
+  "last_updated": "2026-10-06T14:23:11.915214+00:00",
   "total_products": 30,
   "products": [
     {
       "name": "Overlord Zas Otan Strap",
       "handle": "overlord-zas-otan-strap",
-      "status": "sold out",
+      "status": "unreachable (HTTP 503)",
       "url": "https://sangininstruments.com/products/overlord-zas-otan-strap"
     },
     {
